@@ -1,1 +1,293 @@
-/* You can add global styles to this file, and also import other style files */
+// Include theming for Angular Material with `mat.theme()`.
+// This Sass mixin will define CSS variables that are used for styling Angular Material
+// components according to the Material 3 design spec.
+// Learn more about theming and how to use it for your application's
+// custom components at https://material.angular.dev/guide/theming
+@use '@angular/material' as mat;
+
+html {
+  height: 100%;
+  @include mat.theme((color: (primary: mat.$azure-palette,
+        tertiary: mat.$blue-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    ));
+}
+
+body {
+  // Default the application to a light color theme. This can be changed to
+  // `dark` to enable the dark color theme, or to `light dark` to defer to the
+  // user's system settings.
+  color-scheme: light;
+
+  // Set a default background, font and text colors for the application using
+  // Angular Material's system-level CSS variables. Learn more about these
+  // variables at https://material.angular.dev/guide/system-variables
+  background-color: var(--mat-sys-surface);
+  color: var(--mat-sys-on-surface);
+  font: var(--mat-sys-body-medium);
+
+  // Reset the user agent margin.
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+$fontSizing : (10: 10px,
+  12: 12px,
+  14: 14px,
+  16: 16px,
+  18: 18px,
+  20: 20px,
+  24: 24px,
+  30: 30px,
+  36: 36px,
+  40: 40px,
+  48: 48px,
+  60: 60px,
+  64: 64px);
+
+@each $key, $value in $fontSizing {
+  .f-s-#{$key} {
+    font-size: $value;
+  }
+}
+
+$spacing: (
+  0: 0,
+  1: 2px,
+  2: 4px,
+  3: 6px,
+  4: 8px,
+  5: 10px,
+  6: 12px,
+  7: 14px,
+  8: 16px,
+  9: 18px,
+  10: 20px,
+  11: 24px,
+  12: 28px,
+  13: 32px,
+  14: 36px,
+  15: 40px,
+  16: 44px,
+  17: 48px,
+  18: 52px,
+  19: 56px,
+  20: 60px,
+  21: 64px,
+  22: 68px,
+  23: 72px,
+  24: 76px,
+  25: 80px,
+  26: 84px,
+  27: 88px,
+  28: 92px,
+  29: 96px,
+  30: 100px,
+  31: 104px,
+  32: 108px,
+  33: 112px,
+  34: 116px,
+  35: 120px,
+  36: 124px,
+  37: 128px,
+  38: 132px,
+  39: 136px,
+  40: 140px,
+  41: 144px,
+  42: 148px,
+  43: 152px,
+  44: 156px,
+  45: 160px,
+  46: 164px,
+  47: 168px,
+  48: 172px,
+  49: 176px,
+  50: 180px,
+  51: 184px,
+  52: 188px,
+  53: 192px,
+  54: 196px,
+  55: 200px,
+);
+
+@each $key, $value in $spacing {
+
+  .p-#{$key} {
+    padding: $value;
+  }
+
+  .px-#{$key} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+
+  .py-#{$key} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+
+  .pt-#{$key} {
+    padding-top: $value;
+  }
+
+  .pr-#{$key} {
+    padding-right: $value;
+  }
+
+  .pb-#{$key} {
+    padding-bottom: $value;
+  }
+
+  .pl-#{$key} {
+    padding-left: $value;
+  }
+
+
+  .m-#{$key} {
+    margin: $value;
+  }
+
+  .mx-#{$key} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+
+  .my-#{$key} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+
+  .mt-#{$key} {
+    margin-top: $value;
+  }
+
+  .mr-#{$key} {
+    margin-right: $value;
+  }
+
+  .mb-#{$key} {
+    margin-bottom: $value;
+  }
+
+  .ml-#{$key} {
+    margin-left: $value;
+  }
+
+  .gap-#{$key} {
+    gap: $value;
+  }
+
+  .br-#{$key} {
+    border-radius: $value;
+  }
+
+  .bt-#{$key} {
+    border-radius: $value $value 0 0;
+  }
+
+  .bb-#{$key} {
+    border-radius: 0 0 $value $value;
+  }
+
+  .w-#{$key} {
+    width: $value;
+  }
+
+  .h-#{$key} {
+    height: $value;
+  }
+
+  .lh-#{$key} {
+    line-height: $value;
+  }
+}
+
+$weightSpacing : (1: 100,
+  2: 200,
+  3: 300,
+  4: 400,
+  5: 500,
+  6: 600,
+  7: 700);
+
+@each $key, $value in $weightSpacing {
+  .fw-#{$key} {
+    font-weight: $value;
+  }
+}
+
+
+:root {
+  --color-yellow: #FEEA39;
+  --color-yellow-dark: #EBC107;
+  --color-yellow-light: #FEFCC3;
+  --color-white: #ffffff;
+  --color-primary-red-dark: #724511;
+  --color-primary-green: #4CAF4F;
+  --color-primary-grey: #4D4D4D;
+  --color-second-grey: #717171;
+  --color-primary-silver: #F5F7FA;
+
+  --auth-indigo-900: #1e1b4b;
+  --auth-indigo-600: #4f46e5;
+  --auth-indigo-700: #4338ca;
+  --auth-purple-600: #7c3aed;
+  --auth-purple-500: #8b5cf6;
+  --auth-lavender-200: #ddd6fe;
+
+  /* Neutrals & Surfaces */
+  --auth-bg-canvas: #f8fafc;
+  --auth-card-bg: #ffffff;
+  --auth-text-primary: #0f172a;
+  --auth-text-muted: #64748b;
+  --auth-border: #e2e8f0;
+
+  /* Brand Gradient */
+  --auth-gradient: linear-gradient(135deg, var(--auth-indigo-600), var(--auth-purple-600));
+
+}
+
+.flex{
+    display: flex;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.m-0{
+    margin: 0;
+}
+
+.f-w-700{
+    font-weight: 700;
+}
+
+.w-full{
+    width: 100%;
+}
