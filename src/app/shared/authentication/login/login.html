@@ -1,0 +1,41 @@
+<div class="flex gap-10 login-section">
+    <div class="left-section flex item-center justify-center">
+        <img width="700px" height="685px" src="/lock2.png" alt="lock image">
+    </div>
+    <div class="right-section flex flex-col item-center justify-center w-55 gap-12">
+        <div class="f-s-24 fw-7">Welcome Back!!</div>
+        <form [formGroup]="authGroup" (ngSubmit)="onSubmit()" class="flex flex-col gap-10">
+            <div class="flex flex-col">
+                <mat-form-field>
+                    <input matInput placeholder="Enter Email" required formControlName="email"/>
+                </mat-form-field>
+                @if(authGroup.controls.email.invalid && authGroup.controls.email.touched) {
+                    <small>Please enter a valid email address.</small>
+                }
+            </div>
+            <div class="flex flex-col">
+                <mat-form-field>
+                    <input matInput placeholder="Enter Password" required formControlName="password" [type]="hide() ? 'text' : 'password'"/>
+                    <button
+                        matIconButton
+                        matSuffix
+                        (click)="clickEvent($event)"
+                        [attr.aria-label]="'Hide password'"
+                        [attr.aria-pressed]="hide()"
+                    >
+                    <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+                    </button>
+                </mat-form-field>
+                @if(authGroup.controls.password.invalid && authGroup.controls.password.touched) {
+                    <small>Password must be at least 8 characters.</small>
+                }
+            </div>
+            @if(invalidCredentials()) {
+                <small>Invalid Credentials</small>
+            }
+            <button matButton type="submit" [disabled]="authGroup.invalid">Login</button>
+            <div [routerLink]="['/forget-password']" class="forget-password">Forget Password</div>
+            <div [routerLink]="['/registration']" class="dontHaveAccount fw-5">Don't have an account? <span>Sign Up</span></div>
+        </form>
+    </div>
+</div>
