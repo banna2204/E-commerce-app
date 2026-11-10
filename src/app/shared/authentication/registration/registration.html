@@ -5,27 +5,50 @@
     <div class="right-section flex flex-col item-center justify-center w-55 gap-12">
         <div class="f-s-24 fw-7">Create Account!!</div>
         <form [formGroup]="authGroup" (ngSubmit)="onSubmit()" class="flex flex-col gap-10">
-            <mat-form-field>
-                <input matInput placeholder="Enter Name" required formControlName="name"/>
-            </mat-form-field>
-            <mat-form-field>
-                <input matInput placeholder="Enter Email" required formControlName="email"/>
-            </mat-form-field>
-            <mat-form-field>
-                <input matInput placeholder="Enter phone" required formControlName="phone"/>
-            </mat-form-field>
-            <mat-form-field>
-                <input matInput placeholder="Enter Password" required formControlName="password"/>
-                <button
-                    matIconButton
-                    matSuffix
-                    (click)="clickEvent($event)"
-                    [attr.aria-label]="'Hide password'"
-                    [attr.aria-pressed]="hide()"
-                >
-                <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
-                </button>
-            </mat-form-field>
+            <div class="flex flex-col">
+                <mat-form-field>
+                    <input matInput placeholder="Enter Name" required formControlName="name"/>
+                </mat-form-field>
+                @if(authGroup.controls.name.invalid && authGroup.controls.name.touched) {
+                    <small>Please enter valid name</small>
+                }
+            </div>
+
+            <div class="flex flex-col">
+                <mat-form-field>
+                    <input matInput placeholder="Enter Email" required formControlName="email"/>
+                </mat-form-field>
+                @if(authGroup.controls.email.invalid && authGroup.controls.email.touched) {
+                    <small>Please enter a valid email address.</small>
+                }
+            </div>
+
+            <div class="flex flex-col">
+                <mat-form-field>
+                    <input matInput placeholder="Enter phone" type="tel" required formControlName="phone"/>
+                </mat-form-field>
+                @if(authGroup.controls.phone.invalid && authGroup.controls.phone.touched) {
+                    <small>Please enter valid phone number</small>
+                }
+            </div>
+
+            <div class="flex flex-col">
+                <mat-form-field>
+                    <input matInput placeholder="Enter Password" required formControlName="password" [type]="hide() ? 'text' : 'password'"/>
+                    <button
+                        matIconButton
+                        matSuffix
+                        (click)="clickEvent($event)"
+                        [attr.aria-label]="'Hide password'"
+                        [attr.aria-pressed]="hide()"
+                    >
+                    <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+                    </button>
+                </mat-form-field>
+                @if(authGroup.controls.password.invalid && authGroup.controls.password.touched) {
+                    <small>Password must be at least 8 characters.</small>
+                }
+            </div>
             <button matButton type="submit" [disabled]="authGroup.invalid">Register</button>
             <div [routerLink]="['/login']" class="alreadyHaveAccount fw-5">Already have an account? <span>Login</span></div>
         </form>

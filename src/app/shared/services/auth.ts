@@ -1,11 +1,19 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { map, Observable } from 'rxjs';
 
 interface User {
-  id: string,
+  id?: string,
   name: string,
-  role: string
+  email: string,
+  password: string,
+  phone: number
+}
+
+interface LoginUser {
+  id?: string,
+  email: string,
+  password: string,
 }
 
 @Injectable({
@@ -17,5 +25,23 @@ export class Auth {
 
   getUser(): Observable<User[]> {
     return this.http.get<User[]>(`${this.apiUrl}/users`);
+  }
+
+  createUser(user: User): Observable<User> {
+    return this.http.post<User>(`${this.apiUrl}/users`, user);
+  }
+
+  login(user: LoginUser): Observable<User | null> {
+    return this.http.get<User[]>(`${this.apiUrl}/users`).pipe(
+      map(users => users.find(
+        u => u.email === user.email && u.password === user.password
+      ) ?? null)
+    );
+  }
+
+  resetPassword(userID:string, password: string): Observable<User | null> {
+    return this.http.patch<User>(`${this.apiUrl}/users/${userID}`, {
+      password: password
+    });
   }
 }

@@ -5,10 +5,15 @@
     <div class="right-section flex flex-col item-center justify-center w-55 gap-12">
         <div class="f-s-24 fw-7">Forget Account!!</div>
         <form [formGroup]="authGroup" (ngSubmit)="onSubmit()" class="flex flex-col gap-10">
-            <mat-form-field>
-                <input matInput placeholder="Enter Email" required formControlName="email"/>
-            </mat-form-field>
-            <button matButton type="submit" [disabled]="authGroup.invalid">Send OTP</button>
+            <div class="flex flex-col">
+                <mat-form-field>
+                    <input matInput placeholder="Enter Email" required formControlName="email"/>
+                </mat-form-field>
+                @if(authGroup.controls.email.invalid && authGroup.controls.email.touched) {
+                    <small>Please enter a valid email address.</small>
+                }
+            </div>
+            <button class="forget-pass-btn" matButton type="submit" [disabled]="authGroup.invalid">Send OTP</button>
         </form>
     </div>
 </div>

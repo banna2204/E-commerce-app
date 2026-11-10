@@ -27,6 +27,10 @@
     display: flex;
     gap: 60px;
 
+    small {
+        color: red;
+    }
+
     .left-section {
         width: 50%;
     }
@@ -38,6 +42,7 @@
     button {
         background: var(--auth-indigo-700);
         color: white !important;
+        cursor: pointer;
     }
     
     .alreadyHaveAccount{
