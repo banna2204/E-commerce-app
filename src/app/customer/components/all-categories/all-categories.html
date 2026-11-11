@@ -1,0 +1,36 @@
+<div class="flex flex-col item-center justify-center mb-10">
+    <div class="cover-image flex item-center mt-30">
+        <div class="flex flex-col gap-3 pl-20">
+            <div class="cover-image-text">Explore our</div>
+            <div class="f-s-40 my-10 fw-7">All Categories</div>
+            <div class="cover-image-text">Discover top categories and find what you love</div>
+        </div>
+    </div>
+
+    <div class="category-item-container flex gap-10 mt-5 justify-center my-20">
+        @for(category of paginatedCategories(); track category.id) {
+            <div class="category-item-content br-5 flex-col p-6" (click)="onCategoryDetail(category)">
+                <div>
+                    <img class="br-5" width="200" height="130" [src]="category.image" alt="category image">
+                </div>
+                <div class="f-s-12">{{category.name}}</div>
+            </div>
+        }
+    </div>
+
+    @if(paginatedCategories().length == 0) {
+        <div class="empty-state f-s-16">No results match your filters.</div>
+    }
+
+    @if(filteredCategory().length > 0) {
+        <mat-paginator
+            [length]="filteredCategory().length"
+            [pageIndex]="pageIndex()"
+            [pageSize]="pageSize()"
+            [pageSizeOptions]="[5, 10, 20]"
+            (page)="onPageChange($event)"
+            showFirstLastButtons
+            aria-label="Select page of categories">
+        </mat-paginator>
+    }
+</div>

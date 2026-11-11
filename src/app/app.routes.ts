@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { PageNotFound } from './shared/page-not-found/page-not-found';
 
 export const routes: Routes = [
     {
@@ -29,5 +30,8 @@ export const routes: Routes = [
     {
         path: 'admin',
         loadChildren: () => import('./admin/admin.routes').then((m)=> m.ADMIN_ROUTES),
+    },
+    {
+        path: '**', component: PageNotFound
     }
 ];

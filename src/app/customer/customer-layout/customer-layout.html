@@ -1,2 +1,18 @@
-<p>customer-layout works!</p>
+<header class="flex justify-between h-25 item-center">
+    <div class="flex justify-between item-center">
+        <mat-icon class="shopping-icon f-s-36 item-center pl-5">shopping_bag</mat-icon>
+        <div class="title fw-7 f-s-24">Shop<span>Ease</span></div>
+    </div>
+    <div>
+        <mat-form-field>
+            <input (input)="onInput($event)" matInput placeholder="Search products" required formControlName="email"/>
+        </mat-form-field>
+    </div>
+    <div class="flex gap-13 pr-5">
+        <mat-icon>account_circle</mat-icon>
+        <mat-icon>favorite</mat-icon>
+        <mat-icon>shopping_cart</mat-icon>
+    </div>
+</header>
+
 <router-outlet></router-outlet>

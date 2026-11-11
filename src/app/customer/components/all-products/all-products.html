@@ -1,0 +1,38 @@
+<div class="flex flex-col item-center justify-center">
+    <div class="cover-image flex item-center mt-30">
+        <div class="flex flex-col gap-3 pl-20">
+            <div class="cover-image-text">Explore our</div>
+            <div class="f-s-40 my-10 fw-7">All Products</div>
+            <div class="cover-image-text">Discover top products and find what you love</div>
+        </div>
+    </div>
+
+    <div class="product-item-container flex gap-10 mt-5 justify-center my-15">
+        @for(product of paginatedProducts(); track product.id) {
+            <div class="product-item-content br-5 flex-col p-6" (click)="onProductSelect(product)">
+                <div>
+                    <img class="br-5" width="200" height="130" [src]="product.image" alt="product image">
+                </div>
+                <div class="f-s-12">{{product.title}}</div>
+                <div class="fw-5">{{product.price}}</div>
+                <div class="f-s-12">Rating: {{product.rating}}</div>
+            </div>
+        }
+    </div>
+
+    @if(paginatedProducts().length == 0) {
+        <div class="empty-state f-s-16">No results match your filters.</div>
+    }
+
+    @if(filteredProducts().length > 0) {
+        <mat-paginator
+            [length]="filteredProducts().length"
+            [pageIndex]="pageIndex()"
+            [pageSize]="pageSize()"
+            [pageSizeOptions]="[5, 10, 20]"
+            (page)="onPageChange($event)"
+            showFirstLastButtons
+            aria-label="Select page of product">
+        </mat-paginator>
+    }
+</div>
