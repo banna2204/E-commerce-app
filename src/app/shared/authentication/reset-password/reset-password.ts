@@ -45,7 +45,6 @@ export class ResetPassword {
     if(user.id) {
       this.auth.resetPassword(user.id, newPassword).subscribe({
         next: (res) => {
-          console.log(res,'updated');
           this.matchedPass.set(true);
         },
         error: (err) => {

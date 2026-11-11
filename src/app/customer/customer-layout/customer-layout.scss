@@ -1,0 +1,52 @@
+::ng-deep mat-form-field{
+    --mat-sys-error:blue;
+    --mat-sys-on-surface-variant: var(--color-white);
+    --mat-sys-on-surface: white;
+    opacity: 0.5;
+    width: 400px;
+
+    .mdc-text-field--filled {
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 99px;
+    }
+
+    .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+        background-color: rgba(#9591cd, 0.4);
+    }
+
+    .mat-mdc-form-field-subscript-wrapper, .mat-mdc-form-field-bottom-align::before{
+        display: none;
+    }
+
+    .mat-mdc-form-field.mat-form-field-animations-enabled .mdc-line-ripple::after {
+        display: none;
+    }
+
+    .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-line-ripple::before {
+        display: none;
+    }
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background: var(--auth-indigo-900);
+    color: var(--color-white);
+
+    .shopping-icon {
+        color: var(--auth-purple-500);
+        height: 36px;
+        width: 36px;
+    }
+
+    .title {
+        span {
+            color: var(--auth-purple-500);
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.cover-image {
+    background-image: url('../../../../../public//cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90vw;
+    height: 30vh;
+    border-radius: 20px;
+    color: var(--color-white);
+
+    .cover-image-text{
+        color: rgba(white, 0.7);
+    }
+}
+
+.category-item-container{
+    flex-wrap: wrap;
+
+    .category-item-content{
+        cursor: pointer;
+        border: 1px solid rgb(185, 184, 184);
+        background: rgb(243, 243, 243);
+    }
+}
+
+.empty-state {
+    height: 20vh;
+    color: rgb(255, 94, 94);
+}

@@ -1,0 +1,36 @@
+.home-page {
+    .promotional-banner {
+        width: 1000px;
+        background-image: url('../../../../public/promotional-banner.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 400px;
+    }
+
+    .category-item-container{
+        flex-wrap: wrap;
+
+        .category-item-content{
+            width: min-content;
+        }
+
+        .all-category{
+            color: var(--auth-indigo-600);
+            cursor: pointer;
+        }
+    }
+
+    .product-item-container{
+        flex-wrap: wrap;
+
+        .product-item-content{
+            width: min-content;
+        }
+
+        .all-products{
+            color: var(--auth-indigo-600);
+            cursor: pointer;
+        }
+    }
+}
