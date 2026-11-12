@@ -12,7 +12,9 @@ export const CUSTOMER_ROUTES: Routes = [
       { path: 'categories', loadComponent: () => import('../customer/components/all-categories/all-categories').then((m)=> m.AllCategories) },
       { path: 'products', loadComponent: () => import('../customer/components/all-products/all-products').then((m)=> m.AllProducts) },
       { path: 'category-detail/:id', loadComponent: () => import('../customer/components/category-detail/category-detail').then((m)=> m.CategoryDetail) },
-      { path: 'product-detail/:id', loadComponent: () => import('../customer/components/product-detail/product-detail').then((m) => m.ProductDetail)}
+      { path: 'product-detail/:id', loadComponent: () => import('../customer/components/product-detail/product-detail').then((m) => m.ProductDetail)},
+      { path: 'wishlist', loadComponent: () => import('../customer/components/wishlist/wishlist').then((m)=>m.Wishlist)},
+      { path: 'addToCart', loadComponent: () => import('../customer/components/add-to-cart/add-to-cart').then((m)=>m.AddToCart)}
     ]
   },
   {

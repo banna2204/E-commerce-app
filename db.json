@@ -43,10 +43,9 @@
       "id": "5a23qsPETTg"
     }
   ],
-
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Electronics",
       "slug": "electronics",
       "description": "Smart devices, computers and audio accessories.",
@@ -55,7 +54,7 @@
       "isFeatured": true
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Fashion & Apparel",
       "slug": "fashion-apparel",
       "description": "Clothing, footwear and everyday fashion essentials.",
@@ -64,7 +63,7 @@
       "isFeatured": true
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Home & Kitchen",
       "slug": "home-kitchen",
       "description": "Furniture, cookware and useful home essentials.",
@@ -73,7 +72,7 @@
       "isFeatured": true
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Sports & Outdoors",
       "slug": "sports-outdoors",
       "description": "Fitness gear and equipment for outdoor adventures.",
@@ -82,7 +81,7 @@
       "isFeatured": true
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Beauty & Personal Care",
       "slug": "beauty-personal-care",
       "description": "Skincare and personal-care essentials.",
@@ -91,7 +90,7 @@
       "isFeatured": true
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Books & Stationery",
       "slug": "books-stationery",
       "description": "Books, notebooks and writing supplies.",
@@ -100,7 +99,7 @@
       "isFeatured": false
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Toys & Games",
       "slug": "toys-games",
       "description": "Games, educational toys and creative play sets.",
@@ -109,7 +108,7 @@
       "isFeatured": false
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Groceries & Gourmet",
       "slug": "groceries-gourmet",
       "description": "Beverages, snacks, dry fruits and pantry favourites.",
@@ -118,7 +117,7 @@
       "isFeatured": false
     },
     {
-      "id": 101,
+      "id": "101",
       "name": "Smartphones",
       "slug": "smartphones",
       "description": "Smartphones and mobile devices for work and everyday use.",
@@ -127,7 +126,7 @@
       "isFeatured": true
     },
     {
-      "id": 102,
+      "id": "102",
       "name": "Laptops",
       "slug": "laptops",
       "description": "Laptops for productivity, study, gaming and creative work.",
@@ -136,7 +135,7 @@
       "isFeatured": true
     },
     {
-      "id": 103,
+      "id": "103",
       "name": "Audio & Headphones",
       "slug": "audio-headphones",
       "description": "Headphones, earbuds and portable speakers.",
@@ -145,7 +144,7 @@
       "isFeatured": true
     },
     {
-      "id": 201,
+      "id": "201",
       "name": "Men's Clothing",
       "slug": "mens-clothing",
       "description": "Everyday and occasion wear for men.",
@@ -154,7 +153,7 @@
       "isFeatured": true
     },
     {
-      "id": 202,
+      "id": "202",
       "name": "Women's Clothing",
       "slug": "womens-clothing",
       "description": "Modern clothing and wardrobe essentials for women.",
@@ -163,7 +162,7 @@
       "isFeatured": true
     },
     {
-      "id": 203,
+      "id": "203",
       "name": "Footwear",
       "slug": "footwear",
       "description": "Casual, formal and sports footwear.",
@@ -172,7 +171,7 @@
       "isFeatured": true
     },
     {
-      "id": 301,
+      "id": "301",
       "name": "Furniture",
       "slug": "furniture",
       "description": "Furniture for living rooms, bedrooms and workspaces.",
@@ -181,7 +180,7 @@
       "isFeatured": true
     },
     {
-      "id": 302,
+      "id": "302",
       "name": "Cookware & Dining",
       "slug": "cookware-dining",
       "description": "Cookware, kitchen tools and dining essentials.",
@@ -190,7 +189,7 @@
       "isFeatured": true
     },
     {
-      "id": 401,
+      "id": "401",
       "name": "Fitness Equipment",
       "slug": "fitness-equipment",
       "description": "Equipment and accessories for workouts.",
@@ -199,7 +198,7 @@
       "isFeatured": true
     },
     {
-      "id": 402,
+      "id": "402",
       "name": "Camping & Hiking",
       "slug": "camping-hiking",
       "description": "Gear for camping trips, hiking and outdoor exploration.",
@@ -208,7 +207,7 @@
       "isFeatured": true
     },
     {
-      "id": 501,
+      "id": "501",
       "name": "Skincare",
       "slug": "skincare",
       "description": "Serums, moisturizers, cleansers and sun protection.",
@@ -217,7 +216,7 @@
       "isFeatured": true
     },
     {
-      "id": 601,
+      "id": "601",
       "name": "Books",
       "slug": "books",
       "description": "Fiction, non-fiction and books for learning.",
@@ -226,7 +225,7 @@
       "isFeatured": true
     },
     {
-      "id": 602,
+      "id": "602",
       "name": "Notebooks & Journals",
       "slug": "notebooks-journals",
       "description": "Notebooks, journals and sketchbooks.",
@@ -235,7 +234,7 @@
       "isFeatured": true
     },
     {
-      "id": 603,
+      "id": "603",
       "name": "Writing & Desk Supplies",
       "slug": "writing-desk-supplies",
       "description": "Pens and practical accessories for your desk.",
@@ -244,7 +243,7 @@
       "isFeatured": true
     },
     {
-      "id": 701,
+      "id": "701",
       "name": "Board Games & Puzzles",
       "slug": "board-games-puzzles",
       "description": "Puzzles and tabletop games for all ages.",
@@ -253,7 +252,7 @@
       "isFeatured": true
     },
     {
-      "id": 702,
+      "id": "702",
       "name": "Educational & Remote-Control Toys",
       "slug": "educational-remote-control-toys",
       "description": "Learning toys and remote-control play sets.",
@@ -262,7 +261,7 @@
       "isFeatured": true
     },
     {
-      "id": 703,
+      "id": "703",
       "name": "Building Blocks",
       "slug": "building-blocks",
       "description": "Creative construction and building sets.",
@@ -271,7 +270,7 @@
       "isFeatured": true
     },
     {
-      "id": 801,
+      "id": "801",
       "name": "Beverages",
       "slug": "beverages",
       "description": "Coffee, tea and other drinks.",
@@ -280,7 +279,7 @@
       "isFeatured": true
     },
     {
-      "id": 802,
+      "id": "802",
       "name": "Snacks & Chocolates",
       "slug": "snacks-chocolates",
       "description": "Sweet treats and snack-time favourites.",
@@ -289,7 +288,7 @@
       "isFeatured": true
     },
     {
-      "id": 803,
+      "id": "803",
       "name": "Nuts & Dry Fruits",
       "slug": "nuts-dry-fruits",
       "description": "Nuts and nutritious dry-fruit options.",
@@ -298,7 +297,7 @@
       "isFeatured": true
     },
     {
-      "id": 804,
+      "id": "804",
       "name": "Organic Foods",
       "slug": "organic-foods",
       "description": "Carefully selected organic pantry products.",
@@ -309,7 +308,7 @@
   ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Wireless Noise-Canceling Headphones",
       "slug": "wireless-noise-canceling-headphones",
       "price": 199.99,
@@ -317,10 +316,11 @@
       "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop",
       "stock": 45,
       "rating": 4.7,
-      "brand": "SoundCore"
+      "brand": "SoundCore",
+      "quantity": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Pro Max 5G Smartphone 256GB",
       "slug": "pro-max-5g-smartphone-256gb",
       "price": 899,
@@ -328,10 +328,11 @@
       "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
       "stock": 20,
       "rating": 4.8,
-      "brand": "NovaTech"
+      "brand": "NovaTech",
+      "quantity": 1
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "UltraSlim 14-Inch Developer Laptop",
       "slug": "ultraslim-14-inch-developer-laptop",
       "price": 1249,
@@ -339,10 +340,11 @@
       "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&auto=format&fit=crop",
       "stock": 14,
       "rating": 4.9,
-      "brand": "ZenBook"
+      "brand": "ZenBook",
+      "quantity": 1
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Classic Cotton Crewneck T-Shirt",
       "slug": "classic-cotton-crewneck-tshirt",
       "price": 24.5,
@@ -350,10 +352,11 @@
       "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop",
       "stock": 120,
       "rating": 4.4,
-      "brand": "UrbanThread"
+      "brand": "UrbanThread",
+      "quantity": 1
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Tailored Linen Summer Blazer",
       "slug": "tailored-linen-summer-blazer",
       "price": 89,
@@ -361,10 +364,11 @@
       "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&auto=format&fit=crop",
       "stock": 35,
       "rating": 4.6,
-      "brand": "VogueLine"
+      "brand": "VogueLine",
+      "quantity": 1
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Lightweight Mesh Running Sneakers",
       "slug": "lightweight-mesh-running-sneakers",
       "price": 74.99,
@@ -372,10 +376,11 @@
       "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop",
       "stock": 60,
       "rating": 4.5,
-      "brand": "StrideX"
+      "brand": "StrideX",
+      "quantity": 0
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Ergonomic Mesh Office Chair",
       "slug": "ergonomic-mesh-office-chair",
       "price": 259,
@@ -383,10 +388,11 @@
       "image": "https://images.unsplash.com/photo-1505797149-43b0069ec26b?w=600&auto=format&fit=crop",
       "stock": 18,
       "rating": 4.7,
-      "brand": "ErgoForm"
+      "brand": "ErgoForm",
+      "quantity": 1
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Pre-Seasoned Cast Iron Skillet 12-Inch",
       "slug": "pre-seasoned-cast-iron-skillet",
       "price": 39.95,
@@ -394,10 +400,11 @@
       "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=600&auto=format&fit=crop",
       "stock": 52,
       "rating": 4.8,
-      "brand": "HearthCraft"
+      "brand": "HearthCraft",
+      "quantity": 1
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Adjustable Dumbbell Pair (5-50 lbs)",
       "slug": "adjustable-dumbbell-pair",
       "price": 179,
@@ -405,10 +412,11 @@
       "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&auto=format&fit=crop",
       "stock": 22,
       "rating": 4.6,
-      "brand": "IronPulse"
+      "brand": "IronPulse",
+      "quantity": 1
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Non-Slip High-Density Yoga Mat",
       "slug": "non-slip-high-density-yoga-mat",
       "price": 32,
@@ -416,10 +424,11 @@
       "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=600&auto=format&fit=crop",
       "stock": 85,
       "rating": 4.5,
-      "brand": "ZenFlex"
+      "brand": "ZenFlex",
+      "quantity": 0
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Hyaluronic Acid Hydrating Facial Serum",
       "slug": "hyaluronic-acid-hydrating-serum",
       "price": 28.5,
@@ -427,10 +436,11 @@
       "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
       "stock": 70,
       "rating": 4.7,
-      "brand": "PureGlow"
+      "brand": "PureGlow",
+      "quantity": 0
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Hardcover Dotted Bullet Journal A5",
       "slug": "hardcover-dotted-bullet-journal-a5",
       "price": 16.99,
@@ -438,10 +448,11 @@
       "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=600&auto=format&fit=crop",
       "stock": 140,
       "rating": 4.8,
-      "brand": "PaperCraft"
+      "brand": "PaperCraft",
+      "quantity": 0
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Strategy Wooden Chess & Checkers Set",
       "slug": "strategy-wooden-chess-set",
       "price": 44,
@@ -449,10 +460,11 @@
       "image": "https://images.unsplash.com/photo-1586165368502-1bad197a6461?w=600&auto=format&fit=crop",
       "stock": 30,
       "rating": 4.6,
-      "brand": "MindPlay"
+      "brand": "MindPlay",
+      "quantity": 0
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Single-Origin Arabica Whole Bean Coffee 1kg",
       "slug": "single-origin-arabica-coffee-1kg",
       "price": 26,
@@ -460,10 +472,11 @@
       "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&auto=format&fit=crop",
       "stock": 65,
       "rating": 4.9,
-      "brand": "RoastMaster"
+      "brand": "RoastMaster",
+      "quantity": 0
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Compact Portable Bluetooth Speaker",
       "slug": "compact-portable-bluetooth-speaker",
       "price": 59.99,
@@ -471,10 +484,11 @@
       "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&auto=format&fit=crop",
       "stock": 50,
       "rating": 4.5,
-      "brand": "SoundCore"
+      "brand": "SoundCore",
+      "quantity": 0
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "2-Person Waterproof Backpacking Tent",
       "slug": "2-person-waterproof-backpacking-tent",
       "price": 135,
@@ -482,10 +496,11 @@
       "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=600&auto=format&fit=crop",
       "stock": 19,
       "rating": 4.7,
-      "brand": "Texmo"
+      "brand": "Texmo",
+      "quantity": 0
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Galaxy Edge 5G Smartphone 128GB",
       "slug": "galaxy-edge-5g-smartphone",
       "price": 749,
@@ -493,10 +508,11 @@
       "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&auto=format&fit=crop",
       "stock": 32,
       "rating": 4.6,
-      "brand": "NovaTech"
+      "brand": "NovaTech",
+      "quantity": 0
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Ultra Performance Android Smartphone",
       "slug": "ultra-performance-android-smartphone",
       "price": 599,
@@ -504,10 +520,11 @@
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop",
       "stock": 28,
       "rating": 4.5,
-      "brand": "PixelPro"
+      "brand": "PixelPro",
+      "quantity": 0
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Compact 5G Smartphone 128GB",
       "slug": "compact-5g-smartphone",
       "price": 429,
@@ -515,10 +532,11 @@
       "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop",
       "stock": 40,
       "rating": 4.4,
-      "brand": "MobileX"
+      "brand": "MobileX",
+      "quantity": 0
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "Premium Foldable Smartphone",
       "slug": "premium-foldable-smartphone",
       "price": 1199,
@@ -526,10 +544,11 @@
       "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=600&auto=format&fit=crop",
       "stock": 12,
       "rating": 4.9,
-      "brand": "NovaTech"
+      "brand": "NovaTech",
+      "quantity": 0
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Gaming Laptop RTX Edition",
       "slug": "gaming-laptop-rtx-edition",
       "price": 1599,
@@ -537,10 +556,11 @@
       "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600&auto=format&fit=crop",
       "stock": 15,
       "rating": 4.8,
-      "brand": "GameCore"
+      "brand": "GameCore",
+      "quantity": 0
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Business Laptop 15-Inch",
       "slug": "business-laptop-15-inch",
       "price": 999,
@@ -548,10 +568,11 @@
       "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&auto=format&fit=crop",
       "stock": 25,
       "rating": 4.6,
-      "brand": "ZenBook"
+      "brand": "ZenBook",
+      "quantity": 0
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Lightweight Student Laptop",
       "slug": "lightweight-student-laptop",
       "price": 699,
@@ -559,10 +580,11 @@
       "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600&auto=format&fit=crop",
       "stock": 35,
       "rating": 4.5,
-      "brand": "TechNova"
+      "brand": "TechNova",
+      "quantity": 0
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "Professional Creator Laptop",
       "slug": "professional-creator-laptop",
       "price": 1799,
@@ -570,10 +592,11 @@
       "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&auto=format&fit=crop",
       "stock": 10,
       "rating": 4.9,
-      "brand": "ZenBook"
+      "brand": "ZenBook",
+      "quantity": 0
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Wireless Bluetooth Earbuds",
       "slug": "wireless-bluetooth-earbuds",
       "price": 79.99,
@@ -581,10 +604,11 @@
       "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=600&auto=format&fit=crop",
       "stock": 70,
       "rating": 4.5,
-      "brand": "SoundCore"
+      "brand": "SoundCore",
+      "quantity": 0
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "Studio Monitor Headphones",
       "slug": "studio-monitor-headphones",
       "price": 149,
@@ -592,10 +616,11 @@
       "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&auto=format&fit=crop",
       "stock": 30,
       "rating": 4.7,
-      "brand": "AudioMax"
+      "brand": "AudioMax",
+      "quantity": 0
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Premium Wireless Headset",
       "slug": "premium-wireless-headset",
       "price": 119,
@@ -603,10 +628,11 @@
       "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&auto=format&fit=crop",
       "stock": 42,
       "rating": 4.6,
-      "brand": "SoundCore"
+      "brand": "SoundCore",
+      "quantity": 0
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "Portable Mini Bluetooth Speaker",
       "slug": "portable-mini-bluetooth-speaker",
       "price": 39.99,
@@ -614,10 +640,11 @@
       "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&auto=format&fit=crop",
       "stock": 55,
       "rating": 4.4,
-      "brand": "BassBox"
+      "brand": "BassBox",
+      "quantity": 0
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Men's Slim Fit Casual Shirt",
       "slug": "mens-slim-fit-casual-shirt",
       "price": 34.99,
@@ -625,10 +652,11 @@
       "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=600&auto=format&fit=crop",
       "stock": 65,
       "rating": 4.5,
-      "brand": "UrbanThread"
+      "brand": "UrbanThread",
+      "quantity": 0
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Men's Classic Denim Jacket",
       "slug": "mens-classic-denim-jacket",
       "price": 69,
@@ -636,10 +664,11 @@
       "image": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=600&auto=format&fit=crop",
       "stock": 30,
       "rating": 4.6,
-      "brand": "DenimCo"
+      "brand": "DenimCo",
+      "quantity": 0
     },
     {
-      "id": 31,
+      "id": "31",
       "title": "Men's Casual Chino Trousers",
       "slug": "mens-casual-chino-trousers",
       "price": 45,
@@ -647,10 +676,11 @@
       "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&auto=format&fit=crop",
       "stock": 55,
       "rating": 4.4,
-      "brand": "UrbanThread"
+      "brand": "UrbanThread",
+      "quantity": 0
     },
     {
-      "id": 32,
+      "id": "32",
       "title": "Men's Premium Hoodie",
       "slug": "mens-premium-hoodie",
       "price": 49.99,
@@ -658,10 +688,11 @@
       "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&auto=format&fit=crop",
       "stock": 48,
       "rating": 4.7,
-      "brand": "StreetWear"
+      "brand": "StreetWear",
+      "quantity": 0
     },
     {
-      "id": 33,
+      "id": "33",
       "title": "Women's Floral Summer Dress",
       "slug": "womens-floral-summer-dress",
       "price": 59.99,
@@ -669,10 +700,11 @@
       "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&auto=format&fit=crop",
       "stock": 45,
       "rating": 4.7,
-      "brand": "VogueLine"
+      "brand": "VogueLine",
+      "quantity": 0
     },
     {
-      "id": 34,
+      "id": "34",
       "title": "Women's Casual Crop Top",
       "slug": "womens-casual-crop-top",
       "price": 29,
@@ -680,10 +712,11 @@
       "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&auto=format&fit=crop",
       "stock": 70,
       "rating": 4.5,
-      "brand": "StyleAura"
+      "brand": "StyleAura",
+      "quantity": 0
     },
     {
-      "id": 35,
+      "id": "35",
       "title": "Women's Elegant Evening Dress",
       "slug": "womens-elegant-evening-dress",
       "price": 99,
@@ -691,10 +724,11 @@
       "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&auto=format&fit=crop",
       "stock": 25,
       "rating": 4.8,
-      "brand": "VogueLine"
+      "brand": "VogueLine",
+      "quantity": 0
     },
     {
-      "id": 36,
+      "id": "36",
       "title": "Women's Lightweight Cardigan",
       "slug": "womens-lightweight-cardigan",
       "price": 54,
@@ -702,10 +736,11 @@
       "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&auto=format&fit=crop",
       "stock": 38,
       "rating": 4.6,
-      "brand": "StyleAura"
+      "brand": "StyleAura",
+      "quantity": 0
     },
     {
-      "id": 37,
+      "id": "37",
       "title": "Classic White Running Sneakers",
       "slug": "classic-white-running-sneakers",
       "price": 69.99,
@@ -713,10 +748,11 @@
       "image": "https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?w=600&auto=format&fit=crop",
       "stock": 50,
       "rating": 4.5,
-      "brand": "StrideX"
+      "brand": "StrideX",
+      "quantity": 0
     },
     {
-      "id": 38,
+      "id": "38",
       "title": "Men's Formal Leather Shoes",
       "slug": "mens-formal-leather-shoes",
       "price": 109,
@@ -724,10 +760,11 @@
       "image": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=600&auto=format&fit=crop",
       "stock": 28,
       "rating": 4.7,
-      "brand": "ClassicStep"
+      "brand": "ClassicStep",
+      "quantity": 0
     },
     {
-      "id": 39,
+      "id": "39",
       "title": "Women's Casual Sandals",
       "slug": "womens-casual-sandals",
       "price": 39.99,
@@ -735,10 +772,11 @@
       "image": "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?w=600&auto=format&fit=crop",
       "stock": 60,
       "rating": 4.4,
-      "brand": "StrideX"
+      "brand": "StrideX",
+      "quantity": 0
     },
     {
-      "id": 40,
+      "id": "40",
       "title": "High-Top Casual Sneakers",
       "slug": "high-top-casual-sneakers",
       "price": 84,
@@ -746,10 +784,11 @@
       "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&auto=format&fit=crop",
       "stock": 32,
       "rating": 4.6,
-      "brand": "StreetStep"
+      "brand": "StreetStep",
+      "quantity": 0
     },
     {
-      "id": 41,
+      "id": "41",
       "title": "Modern Three-Seater Sofa",
       "slug": "modern-three-seater-sofa",
       "price": 699,
@@ -757,10 +796,11 @@
       "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&auto=format&fit=crop",
       "stock": 12,
       "rating": 4.8,
-      "brand": "ErgoForm"
+      "brand": "ErgoForm",
+      "quantity": 0
     },
     {
-      "id": 42,
+      "id": "42",
       "title": "Minimalist Wooden Coffee Table",
       "slug": "minimalist-wooden-coffee-table",
       "price": 189,
@@ -768,10 +808,11 @@
       "image": "https://images.unsplash.com/photo-1499933374294-4584851497cc?w=600&auto=format&fit=crop",
       "stock": 20,
       "rating": 4.5,
-      "brand": "HomeCraft"
+      "brand": "HomeCraft",
+      "quantity": 0
     },
     {
-      "id": 43,
+      "id": "43",
       "title": "Modern Ergonomic Study Desk",
       "slug": "modern-ergonomic-study-desk",
       "price": 249,
@@ -779,10 +820,11 @@
       "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600&auto=format&fit=crop",
       "stock": 18,
       "rating": 4.7,
-      "brand": "WorkSpace"
+      "brand": "WorkSpace",
+      "quantity": 0
     },
     {
-      "id": 44,
+      "id": "44",
       "title": "Minimalist Wooden Bookshelf",
       "slug": "minimalist-wooden-bookshelf",
       "price": 159,
@@ -790,10 +832,11 @@
       "image": "https://images.unsplash.com/photo-1594620302200-9a762244a156?w=600&auto=format&fit=crop",
       "stock": 14,
       "rating": 4.6,
-      "brand": "HomeCraft"
+      "brand": "HomeCraft",
+      "quantity": 0
     },
     {
-      "id": 45,
+      "id": "45",
       "title": "Nonstick Cookware Set 10 Pieces",
       "slug": "nonstick-cookware-set",
       "price": 129,
@@ -801,10 +844,11 @@
       "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=600&auto=format&fit=crop",
       "stock": 32,
       "rating": 4.7,
-      "brand": "HearthCraft"
+      "brand": "HearthCraft",
+      "quantity": 0
     },
     {
-      "id": 46,
+      "id": "46",
       "title": "Premium Stainless Steel Knife Set",
       "slug": "premium-stainless-steel-knife-set",
       "price": 59.99,
@@ -812,10 +856,11 @@
       "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546?w=600&auto=format&fit=crop",
       "stock": 40,
       "rating": 4.6,
-      "brand": "KitchenPro"
+      "brand": "KitchenPro",
+      "quantity": 0
     },
     {
-      "id": 47,
+      "id": "47",
       "title": "Ceramic Dinnerware Set 16 Pieces",
       "slug": "ceramic-dinnerware-set",
       "price": 79,
@@ -823,10 +868,11 @@
       "image": "https://images.unsplash.com/photo-1603199506016-b9a594b593c0?w=600&auto=format&fit=crop",
       "stock": 26,
       "rating": 4.8,
-      "brand": "HearthCraft"
+      "brand": "HearthCraft",
+      "quantity": 0
     },
     {
-      "id": 48,
+      "id": "48",
       "title": "Glass Coffee Mug Set",
       "slug": "glass-coffee-mug-set",
       "price": 24.99,
@@ -834,10 +880,11 @@
       "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=600&auto=format&fit=crop",
       "stock": 55,
       "rating": 4.5,
-      "brand": "KitchenPro"
+      "brand": "KitchenPro",
+      "quantity": 0
     },
     {
-      "id": 49,
+      "id": "49",
       "title": "Premium Resistance Bands Set",
       "slug": "premium-resistance-bands-set",
       "price": 24.99,
@@ -845,10 +892,11 @@
       "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&auto=format&fit=crop",
       "stock": 80,
       "rating": 4.5,
-      "brand": "ZenFlex"
+      "brand": "ZenFlex",
+      "quantity": 0
     },
     {
-      "id": 50,
+      "id": "50",
       "title": "Professional Kettlebell 20kg",
       "slug": "professional-kettlebell-20kg",
       "price": 59,
@@ -856,10 +904,11 @@
       "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&auto=format&fit=crop",
       "stock": 35,
       "rating": 4.7,
-      "brand": "IronPulse"
+      "brand": "IronPulse",
+      "quantity": 0
     },
     {
-      "id": 51,
+      "id": "51",
       "title": "Adjustable Workout Bench",
       "slug": "adjustable-workout-bench",
       "price": 149,
@@ -867,10 +916,11 @@
       "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop",
       "stock": 16,
       "rating": 4.6,
-      "brand": "IronPulse"
+      "brand": "IronPulse",
+      "quantity": 0
     },
     {
-      "id": 52,
+      "id": "52",
       "title": "Premium Foam Roller",
       "slug": "premium-foam-roller",
       "price": 29.99,
@@ -878,10 +928,11 @@
       "image": "https://images.unsplash.com/photo-1599058917212-d750089bc07c?w=600&auto=format&fit=crop",
       "stock": 65,
       "rating": 4.4,
-      "brand": "ZenFlex"
+      "brand": "ZenFlex",
+      "quantity": 0
     },
     {
-      "id": 53,
+      "id": "53",
       "title": "Vitamin C Brightening Face Serum",
       "slug": "vitamin-c-brightening-face-serum",
       "price": 32,
@@ -889,10 +940,11 @@
       "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop",
       "stock": 60,
       "rating": 4.8,
-      "brand": "PureGlow"
+      "brand": "PureGlow",
+      "quantity": 0
     },
     {
-      "id": 54,
+      "id": "54",
       "title": "Daily Hydrating Face Moisturizer",
       "slug": "daily-hydrating-face-moisturizer",
       "price": 22,
@@ -900,10 +952,11 @@
       "image": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=600&auto=format&fit=crop",
       "stock": 75,
       "rating": 4.6,
-      "brand": "SkinEssence"
+      "brand": "SkinEssence",
+      "quantity": 0
     },
     {
-      "id": 55,
+      "id": "55",
       "title": "Gentle Foaming Face Cleanser",
       "slug": "gentle-foaming-face-cleanser",
       "price": 18.5,
@@ -911,10 +964,11 @@
       "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&auto=format&fit=crop",
       "stock": 90,
       "rating": 4.5,
-      "brand": "PureGlow"
+      "brand": "PureGlow",
+      "quantity": 0
     },
     {
-      "id": 56,
+      "id": "56",
       "title": "Daily SPF 50 Sunscreen",
       "slug": "daily-spf-50-sunscreen",
       "price": 19.99,
@@ -922,10 +976,11 @@
       "image": "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?w=600&auto=format&fit=crop",
       "stock": 68,
       "rating": 4.7,
-      "brand": "SunShield"
+      "brand": "SunShield",
+      "quantity": 0
     },
     {
-      "id": 57,
+      "id": "57",
       "title": "Premium Hardcover Notebook",
       "slug": "premium-hardcover-notebook",
       "price": 14.99,
@@ -933,10 +988,11 @@
       "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=600&auto=format&fit=crop",
       "stock": 100,
       "rating": 4.6,
-      "brand": "PaperCraft"
+      "brand": "PaperCraft",
+      "quantity": 0
     },
     {
-      "id": 58,
+      "id": "58",
       "title": "Professional Ballpoint Pen Set",
       "slug": "professional-ballpoint-pen-set",
       "price": 12.5,
@@ -944,10 +1000,11 @@
       "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&auto=format&fit=crop",
       "stock": 110,
       "rating": 4.5,
-      "brand": "WriteWell"
+      "brand": "WriteWell",
+      "quantity": 0
     },
     {
-      "id": 59,
+      "id": "59",
       "title": "Minimalist Desk Organizer",
       "slug": "minimalist-desk-organizer",
       "price": 21.99,
@@ -955,10 +1012,11 @@
       "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=600&auto=format&fit=crop",
       "stock": 45,
       "rating": 4.4,
-      "brand": "PaperCraft"
+      "brand": "PaperCraft",
+      "quantity": 0
     },
     {
-      "id": 60,
+      "id": "60",
       "title": "Creative Watercolor Sketchbook",
       "slug": "creative-watercolor-sketchbook",
       "price": 19.99,
@@ -966,10 +1024,11 @@
       "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&auto=format&fit=crop",
       "stock": 38,
       "rating": 4.7,
-      "brand": "ArtSpace"
+      "brand": "ArtSpace",
+      "quantity": 0
     },
     {
-      "id": 61,
+      "id": "61",
       "title": "Colorful Wooden Building Blocks",
       "slug": "colorful-wooden-building-blocks",
       "price": 29.99,
@@ -977,10 +1036,11 @@
       "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&auto=format&fit=crop",
       "stock": 55,
       "rating": 4.7,
-      "brand": "MindPlay"
+      "brand": "MindPlay",
+      "quantity": 0
     },
     {
-      "id": 62,
+      "id": "62",
       "title": "Educational Jigsaw Puzzle 1000 Pieces",
       "slug": "educational-jigsaw-puzzle",
       "price": 19.99,
@@ -988,10 +1048,11 @@
       "image": "https://images.unsplash.com/photo-1606503153255-59d8b8b821f1?w=600&auto=format&fit=crop",
       "stock": 40,
       "rating": 4.5,
-      "brand": "PuzzleWorld"
+      "brand": "PuzzleWorld",
+      "quantity": 0
     },
     {
-      "id": 63,
+      "id": "63",
       "title": "Remote Control Racing Car",
       "slug": "remote-control-racing-car",
       "price": 49.99,
@@ -999,10 +1060,11 @@
       "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=600&auto=format&fit=crop",
       "stock": 28,
       "rating": 4.6,
-      "brand": "PlayZone"
+      "brand": "PlayZone",
+      "quantity": 0
     },
     {
-      "id": 64,
+      "id": "64",
       "title": "Kids Educational Learning Toy Set",
       "slug": "kids-educational-learning-toy-set",
       "price": 34.99,
@@ -1010,10 +1072,11 @@
       "image": "https://images.unsplash.com/photo-1560961911-ba7ef651a56c?w=600&auto=format&fit=crop",
       "stock": 42,
       "rating": 4.8,
-      "brand": "MindPlay"
+      "brand": "MindPlay",
+      "quantity": 0
     },
     {
-      "id": 65,
+      "id": "65",
       "title": "Organic Almonds Premium Pack",
       "slug": "organic-almonds-premium-pack",
       "price": 18.99,
@@ -1021,10 +1084,11 @@
       "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?w=600&auto=format&fit=crop",
       "stock": 70,
       "rating": 4.7,
-      "brand": "NatureBasket"
+      "brand": "NatureBasket",
+      "quantity": 0
     },
     {
-      "id": 66,
+      "id": "66",
       "title": "Premium Green Tea Collection",
       "slug": "premium-green-tea-collection",
       "price": 15.99,
@@ -1032,10 +1096,11 @@
       "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&auto=format&fit=crop",
       "stock": 85,
       "rating": 4.6,
-      "brand": "TeaLeaf"
+      "brand": "TeaLeaf",
+      "quantity": 0
     },
     {
-      "id": 67,
+      "id": "67",
       "title": "Organic Dark Chocolate Bar",
       "slug": "organic-dark-chocolate-bar",
       "price": 8.99,
@@ -1043,10 +1108,11 @@
       "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=600&auto=format&fit=crop",
       "stock": 95,
       "rating": 4.8,
-      "brand": "ChocoCraft"
+      "brand": "ChocoCraft",
+      "quantity": 0
     },
     {
-      "id": 68,
+      "id": "68",
       "title": "Premium Organic Honey Jar",
       "slug": "premium-organic-honey-jar",
       "price": 12.99,
@@ -1054,10 +1120,11 @@
       "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=600&auto=format&fit=crop",
       "stock": 48,
       "rating": 4.7,
-      "brand": "NatureBasket"
+      "brand": "NatureBasket",
+      "quantity": 0
     },
     {
-      "id": 69,
+      "id": "69",
       "title": "The Art of Creative Thinking",
       "slug": "the-art-of-creative-thinking",
       "price": 18.99,
@@ -1065,10 +1132,11 @@
       "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&auto=format&fit=crop",
       "stock": 42,
       "rating": 4.6,
-      "brand": "ReadWell"
+      "brand": "ReadWell",
+      "quantity": 0
     },
     {
-      "id": 70,
+      "id": "70",
       "title": "The Complete Guide to Modern Technology",
       "slug": "complete-guide-modern-technology",
       "price": 24.99,
@@ -1076,10 +1144,11 @@
       "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=600&auto=format&fit=crop",
       "stock": 35,
       "rating": 4.5,
-      "brand": "KnowledgePress"
+      "brand": "KnowledgePress",
+      "quantity": 0
     },
     {
-      "id": 71,
+      "id": "71",
       "title": "The Beginner's Guide to Programming",
       "slug": "beginners-guide-to-programming",
       "price": 29.99,
@@ -1087,10 +1156,11 @@
       "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=600&auto=format&fit=crop",
       "stock": 28,
       "rating": 4.7,
-      "brand": "KnowledgePress"
+      "brand": "KnowledgePress",
+      "quantity": 0
     },
     {
-      "id": 72,
+      "id": "72",
       "title": "Lightweight Camping Sleeping Bag",
       "slug": "lightweight-camping-sleeping-bag",
       "price": 64.99,
@@ -1098,10 +1168,11 @@
       "image": "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?w=600&auto=format&fit=crop",
       "stock": 24,
       "rating": 4.6,
-      "brand": "TrailPeak"
+      "brand": "TrailPeak",
+      "quantity": 0
     },
     {
-      "id": 73,
+      "id": "73",
       "title": "Waterproof Hiking Backpack 40L",
       "slug": "waterproof-hiking-backpack-40l",
       "price": 89.99,
@@ -1109,10 +1180,11 @@
       "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop",
       "stock": 31,
       "rating": 4.7,
-      "brand": "TrailPeak"
+      "brand": "TrailPeak",
+      "quantity": 0
     },
     {
-      "id": 74,
+      "id": "74",
       "title": "Premium Weekly Planner",
       "slug": "premium-weekly-planner",
       "price": 17.99,
@@ -1120,10 +1192,11 @@
       "image": "https://images.unsplash.com/photo-1506784983877-45594a4d0c9d?w=600&auto=format&fit=crop",
       "stock": 52,
       "rating": 4.6,
-      "brand": "WriteWell"
+      "brand": "WriteWell",
+      "quantity": 0
     },
     {
-      "id": 75,
+      "id": "75",
       "title": "Family Strategy Board Game",
       "slug": "family-strategy-board-game",
       "price": 34.99,
@@ -1131,10 +1204,11 @@
       "image": "https://images.unsplash.com/photo-1606503153255-59d8b8b821f1?w=600&auto=format&fit=crop",
       "stock": 36,
       "rating": 4.5,
-      "brand": "MindPlay"
+      "brand": "MindPlay",
+      "quantity": 0
     },
     {
-      "id": 76,
+      "id": "76",
       "title": "Interactive STEM Learning Kit",
       "slug": "interactive-stem-learning-kit",
       "price": 39.99,
@@ -1142,10 +1216,11 @@
       "image": "https://images.unsplash.com/photo-1560785496-3c9d27877182?w=600&auto=format&fit=crop",
       "stock": 22,
       "rating": 4.7,
-      "brand": "PlayZone"
+      "brand": "PlayZone",
+      "quantity": 0
     },
     {
-      "id": 77,
+      "id": "77",
       "title": "Colorful Interlocking Building Set",
       "slug": "colorful-interlocking-building-set",
       "price": 24.99,
@@ -1153,10 +1228,11 @@
       "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&auto=format&fit=crop",
       "stock": 44,
       "rating": 4.6,
-      "brand": "BuildBright"
+      "brand": "BuildBright",
+      "quantity": 0
     },
     {
-      "id": 78,
+      "id": "78",
       "title": "Creative Magnetic Building Tiles",
       "slug": "creative-magnetic-building-tiles",
       "price": 32.99,
@@ -1164,10 +1240,11 @@
       "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=600&auto=format&fit=crop",
       "stock": 33,
       "rating": 4.8,
-      "brand": "BuildBright"
+      "brand": "BuildBright",
+      "quantity": 0
     },
     {
-      "id": 79,
+      "id": "79",
       "title": "Organic Trail Mix Snack Pack",
       "slug": "organic-trail-mix-snack-pack",
       "price": 11.99,
@@ -1175,10 +1252,11 @@
       "image": "https://images.unsplash.com/photo-1599599810694-b5b37304c041?w=600&auto=format&fit=crop",
       "stock": 62,
       "rating": 4.5,
-      "brand": "NatureBasket"
+      "brand": "NatureBasket",
+      "quantity": 0
     },
     {
-      "id": 80,
+      "id": "80",
       "title": "Assorted Premium Snack Bites",
       "slug": "assorted-premium-snack-bites",
       "price": 9.99,
@@ -1186,10 +1264,11 @@
       "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&auto=format&fit=crop",
       "stock": 58,
       "rating": 4.5,
-      "brand": "ChocoCraft"
+      "brand": "ChocoCraft",
+      "quantity": 0
     },
     {
-      "id": 81,
+      "id": "81",
       "title": "Roasted Cashews Premium Pack",
       "slug": "roasted-cashews-premium-pack",
       "price": 16.99,
@@ -1197,10 +1276,11 @@
       "image": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&auto=format&fit=crop",
       "stock": 48,
       "rating": 4.7,
-      "brand": "NatureBasket"
+      "brand": "NatureBasket",
+      "quantity": 0
     },
     {
-      "id": 82,
+      "id": "82",
       "title": "Premium Pistachios Pack",
       "slug": "premium-pistachios-pack",
       "price": 19.99,
@@ -1208,10 +1288,11 @@
       "image": "https://images.unsplash.com/photo-1528825871115-3581a5387919?w=600&auto=format&fit=crop",
       "stock": 39,
       "rating": 4.6,
-      "brand": "NatureBasket"
+      "brand": "NatureBasket",
+      "quantity": 0
     },
     {
-      "id": 83,
+      "id": "83",
       "title": "Organic Raw Forest Honey",
       "slug": "organic-raw-forest-honey",
       "price": 14.99,
@@ -1219,10 +1300,11 @@
       "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=600&auto=format&fit=crop",
       "stock": 41,
       "rating": 4.8,
-      "brand": "NatureBasket"
+      "brand": "NatureBasket",
+      "quantity": 0
     },
     {
-      "id": 84,
+      "id": "84",
       "title": "Organic Extra Virgin Olive Oil",
       "slug": "organic-extra-virgin-olive-oil",
       "price": 21.99,
@@ -1230,10 +1312,11 @@
       "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&auto=format&fit=crop",
       "stock": 27,
       "rating": 4.7,
-      "brand": "NatureBasket"
+      "brand": "NatureBasket",
+      "quantity": 0
     },
     {
-      "id": 85,
+      "id": "85",
       "title": "Premium Chamomile Herbal Tea",
       "slug": "premium-chamomile-herbal-tea",
       "price": 13.99,
@@ -1241,10 +1324,11 @@
       "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&auto=format&fit=crop",
       "stock": 46,
       "rating": 4.6,
-      "brand": "TeaLeaf"
+      "brand": "TeaLeaf",
+      "quantity": 0
     },
     {
-      "id": 86,
+      "id": "86",
       "title": "Smart Home Security Camera",
       "slug": "smart-home-security-camera",
       "price": 79.99,
@@ -1252,10 +1336,11 @@
       "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=600&auto=format&fit=crop",
       "stock": 38,
       "rating": 4.5,
-      "brand": "HomeGuard"
+      "brand": "HomeGuard",
+      "quantity": 0
     },
     {
-      "id": 87,
+      "id": "87",
       "title": "Portable Bluetooth Speaker",
       "slug": "portable-bluetooth-speaker",
       "price": 59.99,
@@ -1263,10 +1348,11 @@
       "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&auto=format&fit=crop",
       "stock": 52,
       "rating": 4.6,
-      "brand": "SoundCore"
+      "brand": "SoundCore",
+      "quantity": 0
     },
     {
-      "id": 88,
+      "id": "88",
       "title": "Wireless Charging Pad",
       "slug": "wireless-charging-pad",
       "price": 24.99,
@@ -1274,10 +1360,11 @@
       "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&auto=format&fit=crop",
       "stock": 70,
       "rating": 4.4,
-      "brand": "Voltix"
+      "brand": "Voltix",
+      "quantity": 0
     },
     {
-      "id": 89,
+      "id": "89",
       "title": "Classic Cotton Casual T-Shirt",
       "slug": "classic-cotton-casual-t-shirt",
       "price": 24.99,
@@ -1285,10 +1372,11 @@
       "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop",
       "stock": 85,
       "rating": 4.5,
-      "brand": "UrbanThread"
+      "brand": "UrbanThread",
+      "quantity": 0
     },
     {
-      "id": 90,
+      "id": "90",
       "title": "Everyday Running Sneakers",
       "slug": "everyday-running-sneakers",
       "price": 74.99,
@@ -1296,10 +1384,11 @@
       "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop",
       "stock": 34,
       "rating": 4.7,
-      "brand": "Stride"
+      "brand": "Stride",
+      "quantity": 0
     },
     {
-      "id": 91,
+      "id": "91",
       "title": "Minimal Leather Shoulder Bag",
       "slug": "minimal-leather-shoulder-bag",
       "price": 89.99,
@@ -1307,10 +1396,11 @@
       "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&auto=format&fit=crop",
       "stock": 26,
       "rating": 4.6,
-      "brand": "ModeCraft"
+      "brand": "ModeCraft",
+      "quantity": 0
     },
     {
-      "id": 92,
+      "id": "92",
       "title": "Modern Ceramic Dinner Set",
       "slug": "modern-ceramic-dinner-set",
       "price": 49.99,
@@ -1318,10 +1408,11 @@
       "image": "https://images.unsplash.com/photo-1603199506016-b9a594b593c0?w=600&auto=format&fit=crop",
       "stock": 30,
       "rating": 4.5,
-      "brand": "CasaLiving"
+      "brand": "CasaLiving",
+      "quantity": 0
     },
     {
-      "id": 93,
+      "id": "93",
       "title": "Stainless Steel Cookware Set",
       "slug": "stainless-steel-cookware-set",
       "price": 119.99,
@@ -1329,10 +1420,11 @@
       "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=600&auto=format&fit=crop",
       "stock": 18,
       "rating": 4.8,
-      "brand": "KitchenPro"
+      "brand": "KitchenPro",
+      "quantity": 0
     },
     {
-      "id": 94,
+      "id": "94",
       "title": "Decorative Table Lamp",
       "slug": "decorative-table-lamp",
       "price": 39.99,
@@ -1340,10 +1432,11 @@
       "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&auto=format&fit=crop",
       "stock": 42,
       "rating": 4.4,
-      "brand": "LumaHome"
+      "brand": "LumaHome",
+      "quantity": 0
     },
     {
-      "id": 95,
+      "id": "95",
       "title": "Adjustable Dumbbell Set",
       "slug": "adjustable-dumbbell-set",
       "price": 99.99,
@@ -1351,10 +1444,11 @@
       "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&auto=format&fit=crop",
       "stock": 22,
       "rating": 4.7,
-      "brand": "FitForge"
+      "brand": "FitForge",
+      "quantity": 0
     },
     {
-      "id": 96,
+      "id": "96",
       "title": "Insulated Sports Water Bottle",
       "slug": "insulated-sports-water-bottle",
       "price": 19.99,
@@ -1362,10 +1456,11 @@
       "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&auto=format&fit=crop",
       "stock": 65,
       "rating": 4.5,
-      "brand": "TrailPeak"
+      "brand": "TrailPeak",
+      "quantity": 0
     },
     {
-      "id": 97,
+      "id": "97",
       "title": "Lightweight Camping Backpack",
       "slug": "lightweight-camping-backpack",
       "price": 64.99,
@@ -1373,10 +1468,11 @@
       "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop",
       "stock": 27,
       "rating": 4.6,
-      "brand": "OutdoorWay"
+      "brand": "OutdoorWay",
+      "quantity": 0
     },
     {
-      "id": 98,
+      "id": "98",
       "title": "Hydrating Daily Face Moisturizer",
       "slug": "hydrating-daily-face-moisturizer",
       "price": 18.99,
@@ -1384,10 +1480,11 @@
       "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&auto=format&fit=crop",
       "stock": 48,
       "rating": 4.6,
-      "brand": "GlowTheory"
+      "brand": "GlowTheory",
+      "quantity": 0
     },
     {
-      "id": 99,
+      "id": "99",
       "title": "Gentle Facial Cleansing Gel",
       "slug": "gentle-facial-cleansing-gel",
       "price": 14.99,
@@ -1395,10 +1492,11 @@
       "image": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=600&auto=format&fit=crop",
       "stock": 56,
       "rating": 4.4,
-      "brand": "PureSkin"
+      "brand": "PureSkin",
+      "quantity": 0
     },
     {
-      "id": 100,
+      "id": "100",
       "title": "Nourishing Hair Care Serum",
       "slug": "nourishing-hair-care-serum",
       "price": 21.99,
@@ -1406,10 +1504,11 @@
       "image": "https://images.unsplash.com/photo-1600612253971-422e7f7faeb6?w=600&auto=format&fit=crop",
       "stock": 33,
       "rating": 4.5,
-      "brand": "SilkRoot"
+      "brand": "SilkRoot",
+      "quantity": 0
     },
     {
-      "id": 101,
+      "id": "101",
       "title": "The Creative Thinking Journal",
       "slug": "the-creative-thinking-journal",
       "price": 16.99,
@@ -1417,10 +1516,11 @@
       "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=600&auto=format&fit=crop",
       "stock": 60,
       "rating": 4.7,
-      "brand": "PaperNest"
+      "brand": "PaperNest",
+      "quantity": 0
     },
     {
-      "id": 102,
+      "id": "102",
       "title": "Premium Hardcover Notebook",
       "slug": "premium-hardcover-notebook",
       "price": 12.99,
@@ -1428,10 +1528,11 @@
       "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=600&auto=format&fit=crop",
       "stock": 75,
       "rating": 4.5,
-      "brand": "NoteWorks"
+      "brand": "NoteWorks",
+      "quantity": 0
     },
     {
-      "id": 103,
+      "id": "103",
       "title": "Classic Literature Book Collection",
       "slug": "classic-literature-book-collection",
       "price": 34.99,
@@ -1439,10 +1540,11 @@
       "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop",
       "stock": 24,
       "rating": 4.8,
-      "brand": "OpenLeaf"
+      "brand": "OpenLeaf",
+      "quantity": 0
     },
     {
-      "id": 104,
+      "id": "104",
       "title": "Creative Building Blocks Set",
       "slug": "creative-building-blocks-set",
       "price": 29.99,
@@ -1450,10 +1552,11 @@
       "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&auto=format&fit=crop",
       "stock": 40,
       "rating": 4.8,
-      "brand": "PlayWorks"
+      "brand": "PlayWorks",
+      "quantity": 0
     },
     {
-      "id": 105,
+      "id": "105",
       "title": "Family Board Game",
       "slug": "family-board-game",
       "price": 22.99,
@@ -1461,10 +1564,11 @@
       "image": "https://images.unsplash.com/photo-1606503153255-59d8b8b821d4?w=600&auto=format&fit=crop",
       "stock": 31,
       "rating": 4.6,
-      "brand": "FunTable"
+      "brand": "FunTable",
+      "quantity": 0
     },
     {
-      "id": 106,
+      "id": "106",
       "title": "Plush Teddy Bear",
       "slug": "plush-teddy-bear",
       "price": 17.99,
@@ -1472,10 +1576,11 @@
       "image": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?w=600&auto=format&fit=crop",
       "stock": 44,
       "rating": 4.7,
-      "brand": "CuddleCrew"
+      "brand": "CuddleCrew",
+      "quantity": 1
     },
     {
-      "id": 107,
+      "id": "107",
       "title": "Organic Mixed Nuts Pack",
       "slug": "organic-mixed-nuts-pack",
       "price": 14.99,
@@ -1483,10 +1588,11 @@
       "image": "https://images.unsplash.com/photo-1536591375667-f4e5d8e3c4d2?w=600&auto=format&fit=crop",
       "stock": 90,
       "rating": 4.6,
-      "brand": "NatureBasket"
+      "brand": "NatureBasket",
+      "quantity": 1
     },
     {
-      "id": 108,
+      "id": "108",
       "title": "Premium Ground Coffee",
       "slug": "premium-ground-coffee",
       "price": 12.49,
@@ -1494,10 +1600,11 @@
       "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600&auto=format&fit=crop",
       "stock": 68,
       "rating": 4.7,
-      "brand": "BeanHouse"
+      "brand": "BeanHouse",
+      "quantity": 1
     },
     {
-      "id": 109,
+      "id": "109",
       "title": "Raw Forest Honey Jar",
       "slug": "raw-forest-honey-jar",
       "price": 10.99,
@@ -1505,9 +1612,33 @@
       "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=600&auto=format&fit=crop",
       "stock": 53,
       "rating": 4.5,
-      "brand": "GoldenHive"
+      "brand": "GoldenHive",
+      "quantity": 1
     }
   ],
-
+  "wishlist": [
+    {
+      "productId": "4",
+      "id": "If95CqVck9Y"
+    }
+  ],
+  "carts": [
+    {
+      "cartId": "67ic8TinhVw",
+      "id": "bE9eBe8qQLw"
+    },
+    {
+      "cartId": "eKpLVRkwLyY",
+      "id": "s-G5tflTIqA"
+    },
+    {
+      "cartId": "BW1_Zrmq4Gc",
+      "id": "9nYjm1NHDJQ"
+    },
+    {
+      "cartId": "3",
+      "id": "LmcS0OXLXjY"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
