@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
-import { inject, Injectable, signal } from '@angular/core';
-import { BehaviorSubject, EMPTY, map, Observable, switchMap, tap } from 'rxjs';
+import { inject, Injectable } from '@angular/core';
+import { BehaviorSubject, EMPTY, map, Observable, switchMap } from 'rxjs';
 
 export interface categoryItem {
   id?: string,
@@ -91,6 +91,12 @@ export class Product {
 
   deleteWishList(productId?: string): Observable<void>{
     return this.http.delete<void>(`${this.apiUrl}/wishlist/${productId}`);
+  }
+
+  updateWishlist(wishlist: boolean, id: string): Observable<ProductItem | null> {
+    return this.http.patch<ProductItem>(`${this.apiUrl}/products/${id}`, {
+      wishlist: wishlist
+    })
   }
 
   getCart(): Observable<cartItem[]>{

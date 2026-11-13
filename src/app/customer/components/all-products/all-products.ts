@@ -4,6 +4,7 @@ import { MatPaginatorModule, PageEvent } from '@angular/material/paginator';
 import { Router } from '@angular/router';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { forkJoin } from 'rxjs';
 
 @Component({
   selector: 'app-all-products',
@@ -15,7 +16,7 @@ export class AllProducts {
   router = inject(Router);
   productService = inject(Product);
   products = signal<ProductItem[]>([]);
-  wishlistProducts = signal<WishlistItem | undefined>(undefined);
+  wishlistItems = signal<WishlistItem[]>([]);  
 
   searchTerm = signal('');
   pageIndex = signal(0);
@@ -35,19 +36,8 @@ export class AllProducts {
   });
 
   ngOnInit() {
-    this.productService.getProducts().subscribe({
-      next: (res) =>{
-        this.products.set(res);
-      },
-      error: (err) => {
-        console.log(err);
-      }
-    })
-    
-    this.products.set(this.products().map(item => ({
-      ...item,
-      wishlist: false,
-    })));
+    this.loadProduct();
+     this.loadCart();
 
     this.productService.inputValue.subscribe({
       next: (res) => {
@@ -55,6 +45,37 @@ export class AllProducts {
         this.pageIndex.set(0);
       }
     })
+  }
+
+  loadProduct() {
+    this.productService.getProducts().subscribe({
+      next: (res) =>{
+        this.products.set(res);
+      },
+      error: (err) => {
+        console.log(err);
+      }
+    });
+  }
+
+  loadCart() {
+    forkJoin({
+      wishlist: this.productService.getWishlist(),
+      product: this.productService.getProducts()
+    }).subscribe({
+      next: ({ wishlist, product }) => {
+        this.products.set(product);
+
+        const idSet = new Set(wishlist.map((item) => item.productId));
+
+        const filteredProducts = product.filter(
+          (item) => item.id && idSet.has(item.id)
+        );
+
+        this.wishlistItems.set(filteredProducts);
+      },
+      error: (err) => console.error(err)
+    });
   }
 
   onPageChange(event: PageEvent) {
@@ -67,41 +88,44 @@ export class AllProducts {
   }
 
   toggleFavoriteIcon(product: ProductItem) {
-    if(product.wishlist === true) {
-      product.wishlist = false;
+    if (!product.id) return;
+
+    const isWishlisted = product.wishlist;
+    const updateWishlist = !isWishlisted;
+
+    this.updateWishlist(updateWishlist, product.id);
+
+    if (isWishlisted) {
       this.productService.getWishlist().subscribe((res) => {
-        const items = res.find(
-          (item) => item.productId === product.id
-        );
+        const found = res.find((item) => item.productId === product.id);
+        if (!found?.id) return;
 
-        this.wishlistProducts.set(items);
-      })
-
-      if (!this.wishlistProducts()) return;
-      this.productService.deleteWishList(this.wishlistProducts()?.id).subscribe({
-        next: (res) => {
-          console.log(res);
-        },
-        error: (err) => {
-          console.log(err);
-        }
+        this.productService.deleteWishList(found.id).subscribe({
+          next: (res) => this.loadProduct(),
+          error: () => this.updateWishlist(true, product.id!)
+        });
       });
     } else {
-      product.wishlist = true;
       this.productService.addWishList(product.id).subscribe({
-        next: (res) => {
-          console.log(res);
-        },
-        error: (err) => {
-          console.log(err);
-        }
+        next: (res) => this.loadProduct(),
+        error: () => this.updateWishlist(false, product.id!) 
       });
     }
   }
 
+  updateWishlist(wishlist: boolean, id: string){
+    this.productService.updateWishlist(wishlist,id).subscribe({
+      next: (res) => {
+        this.wishlistItems.update((list) => 
+          list.map((p) => (p.id === id) ? {...p, wishlist: res?.wishlist ?? wishlist} : p)
+        )
+      },
+      error: (err) => console.log(err)
+    })
+  }
+
   addToCart(product: ProductItem) {
     this.productService.addToCart(product.id).subscribe({
-      next: (res) => console.log(res),
       error: (err) => console.log(err)
     });
   }

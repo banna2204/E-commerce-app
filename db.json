@@ -317,7 +317,8 @@
       "stock": 45,
       "rating": 4.7,
       "brand": "SoundCore",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": false
     },
     {
       "id": "2",
@@ -329,7 +330,8 @@
       "stock": 20,
       "rating": 4.8,
       "brand": "NovaTech",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": true
     },
     {
       "id": "3",
@@ -341,7 +343,8 @@
       "stock": 14,
       "rating": 4.9,
       "brand": "ZenBook",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": false
     },
     {
       "id": "4",
@@ -353,7 +356,8 @@
       "stock": 120,
       "rating": 4.4,
       "brand": "UrbanThread",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": false
     },
     {
       "id": "5",
@@ -365,7 +369,8 @@
       "stock": 35,
       "rating": 4.6,
       "brand": "VogueLine",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": false
     },
     {
       "id": "6",
@@ -377,7 +382,8 @@
       "stock": 60,
       "rating": 4.5,
       "brand": "StrideX",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "7",
@@ -389,7 +395,8 @@
       "stock": 18,
       "rating": 4.7,
       "brand": "ErgoForm",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": true
     },
     {
       "id": "8",
@@ -401,7 +408,8 @@
       "stock": 52,
       "rating": 4.8,
       "brand": "HearthCraft",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": true
     },
     {
       "id": "9",
@@ -413,7 +421,8 @@
       "stock": 22,
       "rating": 4.6,
       "brand": "IronPulse",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": false
     },
     {
       "id": "10",
@@ -425,7 +434,8 @@
       "stock": 85,
       "rating": 4.5,
       "brand": "ZenFlex",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "11",
@@ -437,7 +447,8 @@
       "stock": 70,
       "rating": 4.7,
       "brand": "PureGlow",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "12",
@@ -449,7 +460,8 @@
       "stock": 140,
       "rating": 4.8,
       "brand": "PaperCraft",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "13",
@@ -461,7 +473,8 @@
       "stock": 30,
       "rating": 4.6,
       "brand": "MindPlay",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "14",
@@ -473,7 +486,8 @@
       "stock": 65,
       "rating": 4.9,
       "brand": "RoastMaster",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "15",
@@ -485,7 +499,8 @@
       "stock": 50,
       "rating": 4.5,
       "brand": "SoundCore",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "16",
@@ -497,7 +512,8 @@
       "stock": 19,
       "rating": 4.7,
       "brand": "Texmo",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "17",
@@ -509,7 +525,8 @@
       "stock": 32,
       "rating": 4.6,
       "brand": "NovaTech",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "18",
@@ -521,7 +538,8 @@
       "stock": 28,
       "rating": 4.5,
       "brand": "PixelPro",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "19",
@@ -533,7 +551,8 @@
       "stock": 40,
       "rating": 4.4,
       "brand": "MobileX",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "20",
@@ -545,7 +564,8 @@
       "stock": 12,
       "rating": 4.9,
       "brand": "NovaTech",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "21",
@@ -557,7 +577,8 @@
       "stock": 15,
       "rating": 4.8,
       "brand": "GameCore",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "22",
@@ -569,7 +590,8 @@
       "stock": 25,
       "rating": 4.6,
       "brand": "ZenBook",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "23",
@@ -581,7 +603,8 @@
       "stock": 35,
       "rating": 4.5,
       "brand": "TechNova",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "24",
@@ -593,7 +616,8 @@
       "stock": 10,
       "rating": 4.9,
       "brand": "ZenBook",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "25",
@@ -605,7 +629,8 @@
       "stock": 70,
       "rating": 4.5,
       "brand": "SoundCore",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "26",
@@ -617,7 +642,8 @@
       "stock": 30,
       "rating": 4.7,
       "brand": "AudioMax",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "27",
@@ -629,7 +655,8 @@
       "stock": 42,
       "rating": 4.6,
       "brand": "SoundCore",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "28",
@@ -641,7 +668,8 @@
       "stock": 55,
       "rating": 4.4,
       "brand": "BassBox",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "29",
@@ -653,7 +681,8 @@
       "stock": 65,
       "rating": 4.5,
       "brand": "UrbanThread",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "30",
@@ -665,7 +694,8 @@
       "stock": 30,
       "rating": 4.6,
       "brand": "DenimCo",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "31",
@@ -677,7 +707,8 @@
       "stock": 55,
       "rating": 4.4,
       "brand": "UrbanThread",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "32",
@@ -689,7 +720,8 @@
       "stock": 48,
       "rating": 4.7,
       "brand": "StreetWear",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "33",
@@ -701,7 +733,8 @@
       "stock": 45,
       "rating": 4.7,
       "brand": "VogueLine",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "34",
@@ -713,7 +746,8 @@
       "stock": 70,
       "rating": 4.5,
       "brand": "StyleAura",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "35",
@@ -725,7 +759,8 @@
       "stock": 25,
       "rating": 4.8,
       "brand": "VogueLine",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "36",
@@ -737,7 +772,8 @@
       "stock": 38,
       "rating": 4.6,
       "brand": "StyleAura",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "37",
@@ -749,7 +785,8 @@
       "stock": 50,
       "rating": 4.5,
       "brand": "StrideX",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "38",
@@ -761,7 +798,8 @@
       "stock": 28,
       "rating": 4.7,
       "brand": "ClassicStep",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "39",
@@ -773,7 +811,8 @@
       "stock": 60,
       "rating": 4.4,
       "brand": "StrideX",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "40",
@@ -785,7 +824,8 @@
       "stock": 32,
       "rating": 4.6,
       "brand": "StreetStep",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "41",
@@ -797,7 +837,8 @@
       "stock": 12,
       "rating": 4.8,
       "brand": "ErgoForm",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "42",
@@ -809,7 +850,8 @@
       "stock": 20,
       "rating": 4.5,
       "brand": "HomeCraft",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "43",
@@ -821,7 +863,8 @@
       "stock": 18,
       "rating": 4.7,
       "brand": "WorkSpace",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "44",
@@ -833,7 +876,8 @@
       "stock": 14,
       "rating": 4.6,
       "brand": "HomeCraft",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "45",
@@ -845,7 +889,8 @@
       "stock": 32,
       "rating": 4.7,
       "brand": "HearthCraft",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "46",
@@ -857,7 +902,8 @@
       "stock": 40,
       "rating": 4.6,
       "brand": "KitchenPro",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "47",
@@ -869,7 +915,8 @@
       "stock": 26,
       "rating": 4.8,
       "brand": "HearthCraft",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "48",
@@ -881,7 +928,8 @@
       "stock": 55,
       "rating": 4.5,
       "brand": "KitchenPro",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "49",
@@ -893,7 +941,8 @@
       "stock": 80,
       "rating": 4.5,
       "brand": "ZenFlex",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "50",
@@ -905,7 +954,8 @@
       "stock": 35,
       "rating": 4.7,
       "brand": "IronPulse",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "51",
@@ -917,7 +967,8 @@
       "stock": 16,
       "rating": 4.6,
       "brand": "IronPulse",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "52",
@@ -929,7 +980,8 @@
       "stock": 65,
       "rating": 4.4,
       "brand": "ZenFlex",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "53",
@@ -941,7 +993,8 @@
       "stock": 60,
       "rating": 4.8,
       "brand": "PureGlow",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "54",
@@ -953,7 +1006,8 @@
       "stock": 75,
       "rating": 4.6,
       "brand": "SkinEssence",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "55",
@@ -965,7 +1019,8 @@
       "stock": 90,
       "rating": 4.5,
       "brand": "PureGlow",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "56",
@@ -977,7 +1032,8 @@
       "stock": 68,
       "rating": 4.7,
       "brand": "SunShield",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "57",
@@ -989,7 +1045,8 @@
       "stock": 100,
       "rating": 4.6,
       "brand": "PaperCraft",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "58",
@@ -1001,7 +1058,8 @@
       "stock": 110,
       "rating": 4.5,
       "brand": "WriteWell",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "59",
@@ -1013,7 +1071,8 @@
       "stock": 45,
       "rating": 4.4,
       "brand": "PaperCraft",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "60",
@@ -1025,7 +1084,8 @@
       "stock": 38,
       "rating": 4.7,
       "brand": "ArtSpace",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "61",
@@ -1037,7 +1097,8 @@
       "stock": 55,
       "rating": 4.7,
       "brand": "MindPlay",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "62",
@@ -1049,7 +1110,8 @@
       "stock": 40,
       "rating": 4.5,
       "brand": "PuzzleWorld",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "63",
@@ -1061,7 +1123,8 @@
       "stock": 28,
       "rating": 4.6,
       "brand": "PlayZone",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "64",
@@ -1073,7 +1136,8 @@
       "stock": 42,
       "rating": 4.8,
       "brand": "MindPlay",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "65",
@@ -1085,7 +1149,8 @@
       "stock": 70,
       "rating": 4.7,
       "brand": "NatureBasket",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "66",
@@ -1097,7 +1162,8 @@
       "stock": 85,
       "rating": 4.6,
       "brand": "TeaLeaf",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "67",
@@ -1109,7 +1175,8 @@
       "stock": 95,
       "rating": 4.8,
       "brand": "ChocoCraft",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "68",
@@ -1121,7 +1188,8 @@
       "stock": 48,
       "rating": 4.7,
       "brand": "NatureBasket",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "69",
@@ -1133,7 +1201,8 @@
       "stock": 42,
       "rating": 4.6,
       "brand": "ReadWell",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "70",
@@ -1145,7 +1214,8 @@
       "stock": 35,
       "rating": 4.5,
       "brand": "KnowledgePress",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "71",
@@ -1157,7 +1227,8 @@
       "stock": 28,
       "rating": 4.7,
       "brand": "KnowledgePress",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "72",
@@ -1169,7 +1240,8 @@
       "stock": 24,
       "rating": 4.6,
       "brand": "TrailPeak",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "73",
@@ -1181,7 +1253,8 @@
       "stock": 31,
       "rating": 4.7,
       "brand": "TrailPeak",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "74",
@@ -1193,7 +1266,8 @@
       "stock": 52,
       "rating": 4.6,
       "brand": "WriteWell",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "75",
@@ -1205,7 +1279,8 @@
       "stock": 36,
       "rating": 4.5,
       "brand": "MindPlay",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "76",
@@ -1217,7 +1292,8 @@
       "stock": 22,
       "rating": 4.7,
       "brand": "PlayZone",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "77",
@@ -1229,7 +1305,8 @@
       "stock": 44,
       "rating": 4.6,
       "brand": "BuildBright",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "78",
@@ -1241,7 +1318,8 @@
       "stock": 33,
       "rating": 4.8,
       "brand": "BuildBright",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "79",
@@ -1253,7 +1331,8 @@
       "stock": 62,
       "rating": 4.5,
       "brand": "NatureBasket",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "80",
@@ -1265,7 +1344,8 @@
       "stock": 58,
       "rating": 4.5,
       "brand": "ChocoCraft",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "81",
@@ -1277,7 +1357,8 @@
       "stock": 48,
       "rating": 4.7,
       "brand": "NatureBasket",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "82",
@@ -1289,7 +1370,8 @@
       "stock": 39,
       "rating": 4.6,
       "brand": "NatureBasket",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "83",
@@ -1301,7 +1383,8 @@
       "stock": 41,
       "rating": 4.8,
       "brand": "NatureBasket",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "84",
@@ -1313,7 +1396,8 @@
       "stock": 27,
       "rating": 4.7,
       "brand": "NatureBasket",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "85",
@@ -1325,7 +1409,8 @@
       "stock": 46,
       "rating": 4.6,
       "brand": "TeaLeaf",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "86",
@@ -1337,7 +1422,8 @@
       "stock": 38,
       "rating": 4.5,
       "brand": "HomeGuard",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "87",
@@ -1349,7 +1435,8 @@
       "stock": 52,
       "rating": 4.6,
       "brand": "SoundCore",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "88",
@@ -1361,7 +1448,8 @@
       "stock": 70,
       "rating": 4.4,
       "brand": "Voltix",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "89",
@@ -1373,7 +1461,8 @@
       "stock": 85,
       "rating": 4.5,
       "brand": "UrbanThread",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "90",
@@ -1385,7 +1474,8 @@
       "stock": 34,
       "rating": 4.7,
       "brand": "Stride",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "91",
@@ -1397,7 +1487,8 @@
       "stock": 26,
       "rating": 4.6,
       "brand": "ModeCraft",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "92",
@@ -1409,7 +1500,8 @@
       "stock": 30,
       "rating": 4.5,
       "brand": "CasaLiving",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "93",
@@ -1421,7 +1513,8 @@
       "stock": 18,
       "rating": 4.8,
       "brand": "KitchenPro",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "94",
@@ -1433,7 +1526,8 @@
       "stock": 42,
       "rating": 4.4,
       "brand": "LumaHome",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "95",
@@ -1445,7 +1539,8 @@
       "stock": 22,
       "rating": 4.7,
       "brand": "FitForge",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "96",
@@ -1457,7 +1552,8 @@
       "stock": 65,
       "rating": 4.5,
       "brand": "TrailPeak",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "97",
@@ -1469,7 +1565,8 @@
       "stock": 27,
       "rating": 4.6,
       "brand": "OutdoorWay",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "98",
@@ -1481,7 +1578,8 @@
       "stock": 48,
       "rating": 4.6,
       "brand": "GlowTheory",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "99",
@@ -1493,7 +1591,8 @@
       "stock": 56,
       "rating": 4.4,
       "brand": "PureSkin",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "100",
@@ -1505,7 +1604,8 @@
       "stock": 33,
       "rating": 4.5,
       "brand": "SilkRoot",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "101",
@@ -1517,7 +1617,8 @@
       "stock": 60,
       "rating": 4.7,
       "brand": "PaperNest",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "102",
@@ -1529,7 +1630,8 @@
       "stock": 75,
       "rating": 4.5,
       "brand": "NoteWorks",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "103",
@@ -1541,7 +1643,8 @@
       "stock": 24,
       "rating": 4.8,
       "brand": "OpenLeaf",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "104",
@@ -1553,7 +1656,8 @@
       "stock": 40,
       "rating": 4.8,
       "brand": "PlayWorks",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "105",
@@ -1565,7 +1669,8 @@
       "stock": 31,
       "rating": 4.6,
       "brand": "FunTable",
-      "quantity": 0
+      "quantity": 0,
+      "wishlist": "false"
     },
     {
       "id": "106",
@@ -1577,7 +1682,8 @@
       "stock": 44,
       "rating": 4.7,
       "brand": "CuddleCrew",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": "false"
     },
     {
       "id": "107",
@@ -1589,7 +1695,8 @@
       "stock": 90,
       "rating": 4.6,
       "brand": "NatureBasket",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": "false"
     },
     {
       "id": "108",
@@ -1601,7 +1708,8 @@
       "stock": 68,
       "rating": 4.7,
       "brand": "BeanHouse",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": "false"
     },
     {
       "id": "109",
@@ -1613,13 +1721,22 @@
       "stock": 53,
       "rating": 4.5,
       "brand": "GoldenHive",
-      "quantity": 1
+      "quantity": 1,
+      "wishlist": "false"
     }
   ],
   "wishlist": [
     {
-      "productId": "4",
-      "id": "If95CqVck9Y"
+      "productId": "8",
+      "id": "GFVKPfMo4GY"
+    },
+    {
+      "productId": "7",
+      "id": "BzTUKAULfjI"
+    },
+    {
+      "productId": "2",
+      "id": "8kIP_2eHVkE"
     }
   ],
   "carts": [
@@ -1634,10 +1751,6 @@
     {
       "cartId": "BW1_Zrmq4Gc",
       "id": "9nYjm1NHDJQ"
-    },
-    {
-      "cartId": "3",
-      "id": "LmcS0OXLXjY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
