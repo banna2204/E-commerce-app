@@ -1,0 +1,32 @@
+<div class="flex flex-col item-center justify-center mb-10">
+    <div class="cover-image flex item-center mt-30">
+        <div class="flex flex-col gap-3 pl-20">
+            <div class="cover-image-text">Explore our</div>
+            <div class="f-s-40 my-10 fw-7">All WishList</div>
+            <div class="cover-image-text">Discover top products and find what you love</div>
+        </div>
+    </div>
+
+    <div class="product-item-container flex gap-10 mt-5 justify-center my-20">
+        @for(product of wishlistItems(); track product.id) {
+            <div class="product-item-content br-5 flex-col p-6">
+                <div>
+                    <img class="br-5" width="200" height="130" [src]="product.image" alt="products image">
+                </div>
+                <div class="f-s-14 fw-5">{{product.title}}</div>
+                <div class="f-s-14 fw-5">Price: {{product.price}}</div>
+                <div class="flex justify-between">
+                    <div>
+                        <div>Rating: {{product.rating}}</div>
+                        <div>Stock: {{product.stock}}</div>
+                    </div>
+                    <button (click)="addToCart(product)" matButton>Add to Cart</button>
+                </div>
+            </div>
+        }
+    </div>
+
+    @if(wishlistItems().length == 0) {
+        <div class="empty-state f-s-16">No wishlists.</div>
+    }
+</div>

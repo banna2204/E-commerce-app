@@ -24,4 +24,11 @@ export class ProductDetail {
       })
     })
   }
+
+  addToCart() {
+    this.productService.addToCart(this.product()?.id).subscribe({
+      next: (res) => console.log(res),
+      error: (err) => console.log(err)
+    });
+  }
 }

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { BehaviorSubject, map, Observable } from 'rxjs';
+import { BehaviorSubject, EMPTY, map, Observable, switchMap } from 'rxjs';
 
 export interface categoryItem {
   id?: string,
@@ -19,7 +19,19 @@ export interface ProductItem{
   image: string,
   stock: number,
   rating: number,
-  brand: string
+  brand: string,
+  wishlist?: boolean,
+  quantity: number
+}
+
+export interface cartItem{
+  cartId: string,
+  id?: string,
+}
+
+export interface WishlistItem {
+  productId?: string,
+  id?: string,
 }
 
 @Injectable({
@@ -56,5 +68,62 @@ export class Product {
     return this.http.get<ProductItem[]>(`${this.apiUrl}/products`).pipe(
       map((items) => items.find((item) => item.id == id))
     )
+  }
+
+  addWishList(id?:string): Observable<WishlistItem>{
+    return this.http.get<WishlistItem[]>(`${this.apiUrl}/wishlist`).pipe(
+      switchMap((items) => {
+        const exists = items.some((i) => i?.productId === id);
+        
+        if (!exists) {
+          return this.http.post<WishlistItem>(`${this.apiUrl}/wishlist`, {
+            productId: id,
+          });
+        }
+        return EMPTY;
+      })
+    );
+  }
+
+  getWishlist(): Observable<WishlistItem[]>{
+    return this.http.get<WishlistItem[]>(`${this.apiUrl}/wishlist`);
+  }
+
+  deleteWishList(productId?: string): Observable<void>{
+    return this.http.delete<void>(`${this.apiUrl}/wishlist/${productId}`);
+  }
+
+  updateWishlist(wishlist: boolean, id: string): Observable<ProductItem | null> {
+    return this.http.patch<ProductItem>(`${this.apiUrl}/products/${id}`, {
+      wishlist: wishlist
+    })
+  }
+
+  getCart(): Observable<cartItem[]>{
+    return this.http.get<cartItem[]>(`${this.apiUrl}/carts`);
+  }
+
+  addToCart(id?:string): Observable<cartItem[] | null>{
+    return this.http.get<cartItem[]>(`${this.apiUrl}/carts`).pipe(
+      switchMap((items) => {
+        const exists = items.some((i) => i?.cartId === id);
+        
+        if (!exists) {
+          return this.http.post<cartItem[]>(`${this.apiUrl}/carts`, {cartId: id});
+        }
+        
+        return EMPTY;
+      })
+    );
+  }
+
+  deleteCart(cartId?:string): Observable<void>{
+    return this.http.delete<void>(`${this.apiUrl}/carts/${cartId}`);
+  }
+
+  updateQuantity(quantity: number, id: string): Observable<ProductItem | null> {
+    return this.http.patch<ProductItem>(`${this.apiUrl}/products/${id}`, {
+      quantity: quantity
+    });
   }
 }

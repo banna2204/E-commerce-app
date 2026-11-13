@@ -9,13 +9,18 @@
 
     <div class="product-item-container flex gap-10 mt-5 justify-center my-15">
         @for(product of paginatedProducts(); track product.id) {
-            <div class="product-item-content br-5 flex-col p-6" (click)="onProductSelect(product)">
+            <div class="product-item-content br-5 flex-col p-6">
+                <mat-icon
+                    class="wishlist-icon material-symbols-outlined"
+                    [class.isWishlist]="product.wishlist === true"
+                    (click)="toggleFavoriteIcon(product)">favorite</mat-icon>
                 <div>
-                    <img class="br-5" width="200" height="130" [src]="product.image" alt="product image">
+                    <img class="br-5" width="200" height="130" [src]="product.image" alt="product image" (click)="onProductSelect(product)">
                 </div>
                 <div class="f-s-12">{{product.title}}</div>
                 <div class="fw-5">{{product.price}}</div>
                 <div class="f-s-12">Rating: {{product.rating}}</div>
+                <button matButton (click)="addToCart(product)" class="mt-4">Add to Cart</button>
             </div>
         }
     </div>

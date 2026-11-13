@@ -1,12 +1,13 @@
 import { Component, inject } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { Product } from '../../shared/services/product';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-customer-layout',
-  imports: [RouterOutlet, MatIconModule, MatInputModule],
+  imports: [RouterOutlet, MatIconModule, MatInputModule, RouterLink, MatButtonModule],
   templateUrl: './customer-layout.html',
   styleUrl: './customer-layout.scss',
 })

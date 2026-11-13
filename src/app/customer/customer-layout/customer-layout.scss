@@ -37,6 +37,7 @@ header {
     width: 100vw;
     background: var(--auth-indigo-900);
     color: var(--color-white);
+    z-index: 9999;
 
     .shopping-icon {
         color: var(--auth-purple-500);
@@ -48,5 +49,9 @@ header {
         span {
             color: var(--auth-purple-500);
         }
+    }
+
+    .action-icon{
+        cursor: pointer;
     }
 }
