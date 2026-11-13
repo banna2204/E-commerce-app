@@ -1,0 +1,42 @@
+::ng-deep mat-form-field{
+    --mat-sys-error:blue;
+    --mat-sys-on-surface-variant: var(--color-white);
+    --mat-sys-on-surface: black;
+    opacity: 0.5;
+    width: 30vw;
+
+    .mdc-text-field--filled {
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 99px;
+    }
+
+    .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+        background-color: rgba(#2216d0, 0.4);
+    }
+
+    .mat-mdc-form-field-subscript-wrapper, .mat-mdc-form-field-bottom-align::before{
+        display: none;
+    }
+
+    .mat-mdc-form-field.mat-form-field-animations-enabled .mdc-line-ripple::after {
+        display: none;
+    }
+
+    .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-line-ripple::before {
+        display: none;
+    }
+}
+
+small {
+    color: red;
+}
+
+button {
+    background: var(--auth-indigo-700);
+    color: white !important;
+    cursor: pointer;
+    width: 30vw;
+}

@@ -1,0 +1,97 @@
+.cover-image {
+    background-image: url('../../../../../public//cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90vw;
+    height: 25vh;
+    border-radius: 20px;
+    color: var(--color-white);
+
+    .cover-image-text{
+        color: rgba(white, 0.7);
+    }
+}
+
+.checkout-section{
+    width: 90vw;
+
+    .address-payment-section {
+        width: 60%;
+    }
+    
+    .order-summary{
+        width: 40%;
+        justify-content: flex-start;
+
+        .product-container{
+            max-height: 250px;
+            overflow-y: auto;
+        }
+
+    
+        .quantity-action-btn{
+            cursor: pointer;
+        }
+    
+        button {
+            background: var(--auth-indigo-700);
+            color: white !important;
+            cursor: pointer;
+        }
+    }
+    
+    .total-amount {
+        border: 1px solid rgb(185, 184, 184);
+        background: rgb(243, 243, 243);
+        text-align: right;
+    }
+}
+
+
+.empty-state {
+    height: 20vh;
+    color: rgb(255, 94, 94);
+}
+
+.card{
+    border: 1px solid rgb(185, 184, 184);
+    background: rgb(243, 243, 243);           
+}
+
+button {
+    background: var(--auth-indigo-700);
+    color: white !important;
+    cursor: pointer;
+    width: stretch;
+}
+
+
+.shipping-container { 
+    max-height: 170px;
+    overflow-y: auto;
+}
+
+.address-card { 
+    cursor: pointer;
+}
+
+::ng-deep .mat-radio-btn{
+
+    .mat-internal-form-field {
+        width: 98%;
+    }
+    .mdc-label{
+        width: 98%;
+    }
+}
+
+.payment-card {
+    border: 1px solid rgb(230, 225, 225);
+    width: 25%;
+    cursor: pointer;
+}
+
+.place-order{
+    width: fit-content;
+}

@@ -1,0 +1,26 @@
+<div class="pt-5 flex item-center justify-center">
+    <form [formGroup]="addressGroup" (ngSubmit)="addAddress()" class="flex flex-col gap-3">
+        <mat-form-field>
+            <input matInput placeholder="Enter name" required formControlName="name"/>
+        </mat-form-field>
+        @if(addressGroup.controls.name.invalid && addressGroup.controls.name.touched) {
+            <small>Name is required!</small>
+        }
+
+        <mat-form-field>
+            <input matInput placeholder="Enter address" required formControlName="address"/>
+        </mat-form-field>
+        @if(addressGroup.controls.address.invalid && addressGroup.controls.address.touched) {
+            <small>Enter valid address.</small>
+        }
+
+        <mat-form-field>
+            <input matInput placeholder="Enter Phone" required formControlName="phone"/>
+        </mat-form-field>
+        @if(addressGroup.controls.phone.invalid && addressGroup.controls.phone.touched) {
+            <small>Enter valid phone number.</small>
+        }
+
+        <button matButton class="mt-4" type="submit" [disabled]="addressGroup.invalid">Add address <mat-icon>add</mat-icon></button>
+    </form>
+</div>

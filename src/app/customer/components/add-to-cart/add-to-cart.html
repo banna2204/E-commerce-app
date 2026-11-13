@@ -39,9 +39,12 @@
     }
 
     @if(totalAmount() > 0) {
-        <div class="total-amount flex justify-between br-5 p-6 mb-20 mt-10">
-            <div>Total: </div>
-            <div class="fw-5">{{totalAmount().toFixed(2)}}</div>
+        <div class="total-amount br-5 p-6 mb-20 mt-10">
+            <div class="flex justify-between">
+                <div>Total: </div>
+                <div class="fw-5">{{totalAmount().toFixed(2)}}</div>
+            </div>
+            <button matButton class="mt-4" (click)="checkout()">Proceed to checkout <mat-icon iconPositionEnd>arrow_right_alt</mat-icon></button>
         </div>
     }
 </div>
