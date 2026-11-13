@@ -318,7 +318,7 @@
       "rating": 4.7,
       "brand": "SoundCore",
       "quantity": 1,
-      "wishlist": false
+      "wishlist": true
     },
     {
       "id": "2",
@@ -330,7 +330,7 @@
       "stock": 20,
       "rating": 4.8,
       "brand": "NovaTech",
-      "quantity": 1,
+      "quantity": 3,
       "wishlist": true
     },
     {
@@ -1736,21 +1736,27 @@
     },
     {
       "productId": "2",
-      "id": "8kIP_2eHVkE"
+      "id": "MszYBtZhMbc"
+    },
+    {
+      "productId": "1",
+      "id": "WTYm-eqMaEQ"
     }
   ],
-  "carts": [
+  "carts": [],
+  "address": [
     {
-      "cartId": "67ic8TinhVw",
-      "id": "bE9eBe8qQLw"
-    },
+      "address": "Piplyana indore 452020",
+      "name": "shubham singh",
+      "phone": "9876543210",
+      "id": "A0c1z1lYaVs"
+    }
+  ],
+  "orders": [
     {
-      "cartId": "eKpLVRkwLyY",
-      "id": "s-G5tflTIqA"
-    },
-    {
-      "cartId": "BW1_Zrmq4Gc",
-      "id": "9nYjm1NHDJQ"
+      "orderId": "2",
+      "addressId": "A0c1z1lYaVs",
+      "id": "bQ5UEq1PQoY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

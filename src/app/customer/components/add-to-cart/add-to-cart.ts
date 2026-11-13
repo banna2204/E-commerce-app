@@ -2,10 +2,12 @@ import { Component, inject, signal } from '@angular/core';
 import { cartItem, Product, ProductItem } from '../../../shared/services/product';
 import { MatIconModule } from '@angular/material/icon';
 import { forkJoin, single } from 'rxjs';
+import { MatButtonModule } from '@angular/material/button';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-to-cart',
-  imports: [MatIconModule],
+  imports: [MatIconModule, MatButtonModule],
   templateUrl: './add-to-cart.html',
   styleUrl: './add-to-cart.scss',
 })
@@ -15,10 +17,11 @@ export class AddToCart {
   cartIds = signal<cartItem[]>([]);
   cartItems = signal<ProductItem[]>([]);
   totalAmount = signal<number>(0);
+  router = inject(Router);
 
   ngOnInit() {
-      this.loadCart();
-    }
+    this.loadCart();
+  }
 
   loadCart() {
     forkJoin({
@@ -95,5 +98,9 @@ export class AddToCart {
       },
       error: (err) => console.error(err)
     });
+  }
+
+  checkout() {
+    this.router.navigate(['/customer/checkout'])
   }
 }

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { BehaviorSubject, EMPTY, map, Observable, switchMap } from 'rxjs';
+import { BehaviorSubject, EMPTY, forkJoin, map, Observable, switchMap } from 'rxjs';
 
 export interface categoryItem {
   id?: string,
@@ -32,6 +32,19 @@ export interface cartItem{
 export interface WishlistItem {
   productId?: string,
   id?: string,
+}
+
+export interface Address {
+  id?: string,
+  address: string,
+  name: string,
+  phone: number
+}
+
+export interface Order {
+  id?: string,
+  orderId: string,
+  addressId: string
 }
 
 @Injectable({
@@ -121,9 +134,47 @@ export class Product {
     return this.http.delete<void>(`${this.apiUrl}/carts/${cartId}`);
   }
 
+  deleteAllCartItems(): Observable<void[]>{
+    return this.http.get<cartItem[]>(`${this.apiUrl}/carts`).pipe(
+      switchMap((items) => {
+        if(!items || items.length == 0) {
+          return [];
+        }
+
+        const deleteRequests = items.map((item) => this.http.delete<void>(`${this.apiUrl}/carts/${item.id}`));
+         
+        return forkJoin(deleteRequests);
+      })
+    )
+  }
+
   updateQuantity(quantity: number, id: string): Observable<ProductItem | null> {
     return this.http.patch<ProductItem>(`${this.apiUrl}/products/${id}`, {
       quantity: quantity
     });
+  }
+
+  getAddress(): Observable<Address[]> {
+    return this.http.get<Address[]>(`${this.apiUrl}/address`);
+  }
+
+  addAddress(address: Address): Observable<Address> {
+    return this.http.post<Address>(`${this.apiUrl}/address`, address);
+  }
+
+  deleteAddress(id: string): Observable<void> {
+    return this.http.delete<void>(`${this.apiUrl}/address/${id}`);
+  }
+
+  placedOrder(items: ProductItem[], addressId: string): Observable<Order[]> {
+    const request = items.map((item) => this.http.post<Order>(`${this.apiUrl}/orders`, {
+     orderId: item.id,
+     addressId: addressId
+    }))
+    return forkJoin(request);
+  }
+
+  getOrders(): Observable<Order[]>{
+    return this.http.get<Order[]>(`${this.apiUrl}/orders`);
   }
 }

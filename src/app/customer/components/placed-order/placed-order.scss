@@ -1,0 +1,30 @@
+.order-placed{
+    background-image: url('../../../../../public/order-place.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    height: 75vh;
+    border-radius: 20px;
+    color: var(--color-white);
+    margin: 95px auto;
+    position: absolute;
+    left: 25%;
+    box-sizing: border-box;
+
+    .order-placed-content {
+        position: absolute; 
+        bottom: 17%;
+        left: 25%;
+    }
+
+    .order-placed-text {
+        color: var(--auth-indigo-900);
+    }
+
+    button {
+        background: var(--auth-indigo-700);
+        color: white !important;
+        cursor: pointer;
+    }
+}

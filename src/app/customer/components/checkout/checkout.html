@@ -1,0 +1,81 @@
+<div class="flex flex-col item-center justify-center mb-10">
+    <div class="cover-image flex item-center mt-30">
+        <div class="flex flex-col gap-3 pl-20">
+            <div class="cover-image-text">Explore our</div>
+            <div class="f-s-40 my-10 fw-7">Order Detail</div>
+            <div class="cover-image-text">Order top products and add what you love</div>
+        </div>
+    </div>
+
+    <div class="checkout-section flex gap-5">
+        <div class="address-payment-section">
+            <div class="address flex flex-col justify-center mt-2">
+                <h2>Shipping Address</h2>
+                <div class="shipping-container flex flex-col gap-3 pb-5">
+                    <mat-radio-group [(ngModel)]="selectedAddressId" class="flex flex-col justify-center mt-2 gap-6">
+                        @for (addr of address(); track addr.id) {
+                            @if(addr.id){
+                                <mat-card class="address-card p-4" (click)="selectedAddress(addr.id)">
+                                <mat-radio-button [value]="addr.id" class="mat-radio-btn">
+                                    <div class="ml-8 w-full">
+                                        <div class="flex item-center justify-between w-full">
+                                            <strong>{{ addr.name }}</strong>
+                                            <mat-icon class="f-s-14" (click)="onAddressDelete(addr.id)">cancel</mat-icon>
+                                        </div>
+                                        <div>{{ addr.address }}</div>
+                                        <div>{{ addr.phone }}</div>
+                                    </div>
+                                </mat-radio-button>
+                                </mat-card>
+                            }
+                        }
+                    </mat-radio-group>
+                </div>
+                <button matButton class="mt-4" (click)="addAddress()">Add address <mat-icon>add</mat-icon></button>
+            </div>
+
+            <div class="payment-method">
+                <h2>Payment Method</h2>
+                <div class="flex gap-2">
+                    @for(method of paymentMethod; track method.title) {
+                        <div class="payment-card flex flex-col item-center justify-center br-5 p-10 gap-2">
+                            <mat-icon>{{method.icon}}</mat-icon>
+                            <div class="fw-5">{{method.title}}</div>
+                        </div>
+                    }
+                </div>
+            </div>
+            <button matButton [disabled]="!selectedAddressId()" class="mt-4 place-order" (click)="placeOrder()">Place Order<mat-icon iconPositionEnd>arrow_right_alt</mat-icon></button>
+        </div>
+    
+        <div class="order-summary flex flex-col justify-center mt-2">
+            <h2>Order Summary</h2>
+            <div class="product-container flex flex-col gap-3">
+                @for(product of cartItems(); track product.id) {
+                    <div class="card flex br-5 p-6 gap-3">
+                        <img class="br-5" width="80" height="50" [src]="product.image" alt="products image">
+                        <div class="flex flex-col w-full">
+                            <div class="flex justify-between">
+                                <div class="flex flex-col">
+                                    <div class="f-s-14 fw-5">{{product.title}}</div>
+                                    <div>Quantity: {{product.quantity}}</div>
+                                </div>
+                                <div class="f-s-14 fw-5">Price: {{product.price}}</div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            @if(totalAmount() > 0) {
+                <div class="total-amount br-5 p-6 mb-5 mt-10 flex justify-between">
+                    <div>Total Amount: </div>
+                    <div class="fw-5">{{totalAmount().toFixed(2)}}</div>
+                </div>
+            }
+        </div>
+    </div>
+
+    @if(cartItems().length == 0) {
+        <div class="empty-state f-s-16 mt-20">No Items.</div>
+    }
+</div>
