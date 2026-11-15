@@ -7,7 +7,8 @@ interface User {
   name: string,
   email: string,
   password: string,
-  phone: number
+  phone: number,
+  role: string
 }
 
 interface LoginUser {
@@ -28,7 +29,7 @@ export class Auth {
   }
 
   createUser(user: User): Observable<User> {
-    return this.http.post<User>(`${this.apiUrl}/users`, user);
+    return this.http.post<User>(`${this.apiUrl}/users`, {...user, role: 'customer'});
   }
 
   login(user: LoginUser): Observable<User | null> {

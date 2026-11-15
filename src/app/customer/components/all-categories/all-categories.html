@@ -19,7 +19,9 @@
     </div>
 
     @if(paginatedCategories().length == 0) {
-        <div class="empty-state f-s-16">No results match your filters.</div>
+        <div>
+            <app-empty-state></app-empty-state>
+        </div>
     }
 
     @if(filteredCategory().length > 0) {

@@ -1,10 +1,11 @@
 import { Component, inject, signal } from '@angular/core';
 import { Order, Product, ProductItem } from '../../../shared/services/product';
 import { forkJoin } from 'rxjs';
+import { EmptyState } from '../../../shared/empty-state/empty-state';
 
 @Component({
   selector: 'app-view-order',
-  imports: [],
+  imports: [EmptyState],
   templateUrl: './view-order.html',
   styleUrl: './view-order.scss',
 })

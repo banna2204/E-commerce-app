@@ -3,10 +3,11 @@ import { PageEvent, MatPaginatorModule } from '@angular/material/paginator';
 import { Product, ProductItem, WishlistItem } from '../../../shared/services/product';
 import { MatButtonModule } from '@angular/material/button';
 import { forkJoin } from 'rxjs';
+import { EmptyState } from '../../../shared/empty-state/empty-state';
 
 @Component({
   selector: 'app-wishlist',
-  imports: [MatPaginatorModule, MatButtonModule],
+  imports: [MatPaginatorModule, MatButtonModule, EmptyState],
   templateUrl: './wishlist.html',
   styleUrl: './wishlist.scss',
 })

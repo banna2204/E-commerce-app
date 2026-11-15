@@ -9,11 +9,11 @@ import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { Router } from '@angular/router';
-
+import { EmptyState } from '../../../shared/empty-state/empty-state';
 
 @Component({
   selector: 'app-checkout',
-  imports: [MatButtonModule, MatIconModule, MatRadioModule, FormsModule, MatCardModule],
+  imports: [MatButtonModule, MatIconModule, MatRadioModule, FormsModule, MatCardModule, EmptyState],
   templateUrl: './checkout.html',
   styleUrl: './checkout.scss',
 })

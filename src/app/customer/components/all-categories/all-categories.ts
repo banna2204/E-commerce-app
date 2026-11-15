@@ -2,10 +2,11 @@ import { Component, computed, inject, signal } from '@angular/core';
 import { Product, categoryItem, ProductItem } from '../../../shared/services/product';
 import { MatPaginatorModule, PageEvent } from '@angular/material/paginator';
 import { Router } from '@angular/router';
+import { EmptyState } from '../../../shared/empty-state/empty-state';
 
 @Component({
   selector: 'app-all-categories',
-  imports: [MatPaginatorModule],
+  imports: [MatPaginatorModule, EmptyState],
   templateUrl: './all-categories.html',
   styleUrl: './all-categories.scss',
 })

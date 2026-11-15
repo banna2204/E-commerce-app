@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { Product } from '../../shared/services/product';
@@ -12,10 +12,15 @@ import { MatButtonModule } from '@angular/material/button';
   styleUrl: './customer-layout.scss',
 })
 export class CustomerLayout {
+  router = inject(Router);
   product = inject(Product);
 
   onInput(event: Event){
     const data = (event.target as HTMLInputElement).value;
     this.product.inputData.next(data);
+  }
+
+  onHomePage() {
+    this.router.navigate(['/customer']);
   }
 }

@@ -76,6 +76,8 @@
     </div>
 
     @if(cartItems().length == 0) {
-        <div class="empty-state f-s-16 mt-20">No Items.</div>
+        <div>
+            <app-empty-state></app-empty-state>
+        </div>
     }
 </div>

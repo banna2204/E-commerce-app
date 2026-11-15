@@ -12,7 +12,8 @@ interface User {
   name: string,
   email: string,
   password: string,
-  phone: number
+  phone: number,
+  role: string
 }
 
 @Component({

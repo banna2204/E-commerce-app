@@ -1,46 +1,20 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Alice",
-      "email": "jack.thompson@example.com",
-      "password": "1234567899",
-      "phone": "1234554321"
-    },
-    {
-      "name": "shubham",
-      "email": "shubham@.com",
-      "password": "shubham",
-      "phone": "999998888",
-      "id": "ljOyXvOP2Pw"
-    },
-    {
-      "name": "goutam",
-      "email": "goutam@.com",
-      "password": "goutam@123",
-      "phone": "9876543210",
-      "id": "Tfp-eIGlsws"
-    },
-    {
-      "name": "test",
-      "email": "test@.com",
-      "password": "test@123",
-      "phone": "1234432155",
-      "id": "qzTCWGB5BPo"
-    },
-    {
-      "name": "abcd",
-      "email": "abcd@g",
-      "password": "22222222",
-      "phone": "0333333333",
-      "id": "3zKRCcT07W0"
-    },
-    {
       "name": "shubham",
       "email": "shubham@gmail.com",
       "password": "12344321",
       "phone": "9999988888",
-      "id": "5a23qsPETTg"
+      "id": "5a23qsPETTg",
+      "role": "admin"
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "12345678",
+      "phone": "0123456888",
+      "role": "customer",
+      "id": "Bq3CVSp"
     }
   ],
   "categories": [
@@ -318,7 +292,7 @@
       "rating": 4.7,
       "brand": "SoundCore",
       "quantity": 1,
-      "wishlist": true
+      "wishlist": false
     },
     {
       "id": "2",
@@ -395,7 +369,7 @@
       "stock": 18,
       "rating": 4.7,
       "brand": "ErgoForm",
-      "quantity": 1,
+      "quantity": 6,
       "wishlist": true
     },
     {
@@ -1737,10 +1711,6 @@
     {
       "productId": "2",
       "id": "MszYBtZhMbc"
-    },
-    {
-      "productId": "1",
-      "id": "WTYm-eqMaEQ"
     }
   ],
   "carts": [],
@@ -1752,12 +1722,6 @@
       "id": "A0c1z1lYaVs"
     }
   ],
-  "orders": [
-    {
-      "orderId": "2",
-      "addressId": "A0c1z1lYaVs",
-      "id": "bQ5UEq1PQoY"
-    }
-  ],
+  "orders": [],
   "$schema": "./node_modules/json-server/schema.json"
 }

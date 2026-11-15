@@ -5,10 +5,11 @@ import { Router } from '@angular/router';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { forkJoin } from 'rxjs';
+import { EmptyState } from '../../../shared/empty-state/empty-state';
 
 @Component({
   selector: 'app-all-products',
-  imports: [MatPaginatorModule, MatIconModule, MatButtonModule],
+  imports: [MatPaginatorModule, MatIconModule, MatButtonModule, EmptyState],
   templateUrl: './all-products.html',
   styleUrl: './all-products.scss',
 })

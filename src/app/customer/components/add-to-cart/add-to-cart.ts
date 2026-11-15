@@ -4,10 +4,11 @@ import { MatIconModule } from '@angular/material/icon';
 import { forkJoin, single } from 'rxjs';
 import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
+import { EmptyState } from '../../../shared/empty-state/empty-state';
 
 @Component({
   selector: 'app-add-to-cart',
-  imports: [MatIconModule, MatButtonModule],
+  imports: [MatIconModule, MatButtonModule, EmptyState],
   templateUrl: './add-to-cart.html',
   styleUrl: './add-to-cart.scss',
 })

@@ -27,6 +27,8 @@
     </div>
 
     @if(wishlistItems().length == 0) {
-        <div class="empty-state f-s-16">No wishlists.</div>
+        <div>
+            <app-empty-state></app-empty-state>
+        </div>
     }
 </div>
