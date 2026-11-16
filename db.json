@@ -15,6 +15,14 @@
       "phone": "0123456888",
       "role": "customer",
       "id": "Bq3CVSp"
+    },
+    {
+      "name": "Pankaj",
+      "email": "test@test.com",
+      "password": "Pass@123",
+      "phone": "1234567890",
+      "role": "customer",
+      "id": "u0nNEo3mNGc"
     }
   ],
   "categories": [
@@ -282,7 +290,6 @@
   ],
   "products": [
     {
-      "id": "1",
       "title": "Wireless Noise-Canceling Headphones",
       "slug": "wireless-noise-canceling-headphones",
       "price": 199.99,
@@ -291,8 +298,9 @@
       "stock": 45,
       "rating": 4.7,
       "brand": "SoundCore",
-      "quantity": 1,
-      "wishlist": false
+      "quantity": 0,
+      "wishlist": false,
+      "id": "pT7NLZoBADQ"
     },
     {
       "id": "2",
@@ -304,8 +312,8 @@
       "stock": 20,
       "rating": 4.8,
       "brand": "NovaTech",
-      "quantity": 3,
-      "wishlist": true
+      "quantity": 0,
+      "wishlist": false
     },
     {
       "id": "3",
@@ -317,8 +325,8 @@
       "stock": 14,
       "rating": 4.9,
       "brand": "ZenBook",
-      "quantity": 1,
-      "wishlist": false
+      "quantity": 6,
+      "wishlist": true
     },
     {
       "id": "4",
@@ -330,7 +338,7 @@
       "stock": 120,
       "rating": 4.4,
       "brand": "UrbanThread",
-      "quantity": 1,
+      "quantity": 0,
       "wishlist": false
     },
     {
@@ -343,7 +351,7 @@
       "stock": 35,
       "rating": 4.6,
       "brand": "VogueLine",
-      "quantity": 1,
+      "quantity": 0,
       "wishlist": false
     },
     {
@@ -369,7 +377,7 @@
       "stock": 18,
       "rating": 4.7,
       "brand": "ErgoForm",
-      "quantity": 6,
+      "quantity": 0,
       "wishlist": true
     },
     {
@@ -382,7 +390,7 @@
       "stock": 52,
       "rating": 4.8,
       "brand": "HearthCraft",
-      "quantity": 1,
+      "quantity": 0,
       "wishlist": true
     },
     {
@@ -395,7 +403,7 @@
       "stock": 22,
       "rating": 4.6,
       "brand": "IronPulse",
-      "quantity": 1,
+      "quantity": 0,
       "wishlist": false
     },
     {
@@ -1656,7 +1664,7 @@
       "stock": 44,
       "rating": 4.7,
       "brand": "CuddleCrew",
-      "quantity": 1,
+      "quantity": 0,
       "wishlist": "false"
     },
     {
@@ -1669,7 +1677,7 @@
       "stock": 90,
       "rating": 4.6,
       "brand": "NatureBasket",
-      "quantity": 1,
+      "quantity": 0,
       "wishlist": "false"
     },
     {
@@ -1682,7 +1690,7 @@
       "stock": 68,
       "rating": 4.7,
       "brand": "BeanHouse",
-      "quantity": 1,
+      "quantity": 0,
       "wishlist": "false"
     },
     {
@@ -1695,7 +1703,7 @@
       "stock": 53,
       "rating": 4.5,
       "brand": "GoldenHive",
-      "quantity": 1,
+      "quantity": 0,
       "wishlist": "false"
     }
   ],
@@ -1711,9 +1719,22 @@
     {
       "productId": "2",
       "id": "MszYBtZhMbc"
+    },
+    {
+      "productId": "3",
+      "id": "os_nL2COMM8"
     }
   ],
-  "carts": [],
+  "carts": [
+    {
+      "cartId": "3",
+      "id": "wmu6VP5kxPQ"
+    },
+    {
+      "cartId": "7",
+      "id": "O12Whxa6oDA"
+    }
+  ],
   "address": [
     {
       "address": "Piplyana indore 452020",

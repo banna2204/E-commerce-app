@@ -25,12 +25,10 @@ export class ResetPassword {
 
   toggleNewPass(event: MouseEvent) {
     this.hideNewPass.set(!this.hideNewPass());
-    event.stopPropagation();
   }
 
   toggleConfirmPass(event: MouseEvent) {
     this.hideConfirmPass.set(!this.hideConfirmPass());
-    event.stopPropagation();
   }
 
   onSubmit() {

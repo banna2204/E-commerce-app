@@ -7,16 +7,9 @@ export const authGuard: CanActivateFn = (route, state) => {
   const user = rawUser ? JSON.parse(rawUser) : null;
   const isUserType = user?.role;
 
-  if (state.url.startsWith('/login')) {
-    if (!user) return true;
-
-    return isUserType === 'customer' ? router.createUrlTree(['/customer']) : router.createUrlTree(['/admin']);
-  }
-
-  if (state.url.startsWith('/registration')) {
-    if (!user) return true;
-
-    return isUserType === 'customer' ? router.createUrlTree(['/customer']) : router.createUrlTree(['/admin']);
+  if (state.url.startsWith('/login') || state.url.startsWith('/registration')) {
+    localStorage.removeItem('user');
+    return true;
   }
 
   if (!user) {

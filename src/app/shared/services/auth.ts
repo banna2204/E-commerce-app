@@ -1,6 +1,6 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { map, Observable } from 'rxjs';
+import { EMPTY, map, Observable, switchMap } from 'rxjs';
 
 interface User {
   id?: string,
@@ -29,7 +29,17 @@ export class Auth {
   }
 
   createUser(user: User): Observable<User> {
-    return this.http.post<User>(`${this.apiUrl}/users`, {...user, role: 'customer'});
+    return this.http.get<User[]>(`${this.apiUrl}/users`).pipe(
+      switchMap((users) => {
+        const exists = users.some((i) => i?.email === user.email);
+        
+        if (!exists) {
+          return this.http.post<User>(`${this.apiUrl}/users`, {...user, role: 'customer'});
+        }
+        console.log("already");
+        return EMPTY;
+      })
+    );
   }
 
   login(user: LoginUser): Observable<User | null> {

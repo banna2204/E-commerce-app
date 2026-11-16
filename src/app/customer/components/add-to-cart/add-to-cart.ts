@@ -41,7 +41,7 @@ export class AddToCart {
 
         const updatedProducts = filteredProducts.map((item) => ({
           ...item,
-          quantity: item.quantity ?? 1
+          quantity: item.quantity == 0 ? 1 : item.quantity
         }));
 
         const total = updatedProducts.reduce(
@@ -63,7 +63,7 @@ export class AddToCart {
       this.productService.updateQuantity(updatedQuantity, product.id).subscribe({
         next: (res) => {
           this.cartItems.update((list) => list.map((item) =>
-            item.id === product.id ? { ...item, quantity: res?.quantity ?? updatedQuantity } : item)
+            item.id === product.id ? { ...item, quantity: res?.quantity ? res?.quantity : updatedQuantity } : item)
           );
           this.totalAmount.update(
             (amount) => amount - product.price
@@ -84,6 +84,13 @@ export class AddToCart {
         },
         error: (err) => console.error(err)
       });
+
+      this.productService.updateQuantity(0, product.id).subscribe({
+        next: (res) => {
+          console.log(res);
+        },
+        error: (err) => console.error(err)
+      });
     }
   }
 
@@ -93,7 +100,7 @@ export class AddToCart {
     this.productService.updateQuantity(updatedQuantity, product.id).subscribe({
       next: (res) => {
         this.cartItems.update((list) =>
-          list.map((p) => p.id === product.id ? { ...p, quantity: res?.quantity ?? updatedQuantity } : p )
+          list.map((p) => p.id === product.id ? { ...p, quantity: res?.quantity ? res?.quantity : updatedQuantity } : p )
         );
         this.totalAmount.update((amount) => amount + product.price);
       },
