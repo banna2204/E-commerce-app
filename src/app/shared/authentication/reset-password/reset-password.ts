@@ -5,6 +5,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { CustomValidator } from '../../custom-validator/custom-validator';
 import { Auth } from '../../services/auth';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-reset-password',
@@ -22,6 +23,7 @@ export class ResetPassword {
   hideNewPass = signal<boolean>(false);
   hideConfirmPass = signal<boolean>(false);
   matchedPass = signal<boolean>(true);
+  router = inject(Router);
 
   toggleNewPass(event: MouseEvent) {
     this.hideNewPass.set(!this.hideNewPass());
@@ -32,18 +34,19 @@ export class ResetPassword {
   }
 
   onSubmit() {
-    const newPass = this.authGroup.value.newPassword;
-    const confirmPass = this.authGroup.value.confirmPassword;
+    const newPass = this.authGroup.value.newPassword as string;
+    const confirmPass = this.authGroup.value.confirmPassword as string;
     if(newPass !== confirmPass) {
       this.matchedPass.set(false);
       return;
     }
     const user = JSON.parse(localStorage.getItem('user') || '{}');
-    const newPassword = this.authGroup.value.newPassword as string;
     if(user.id) {
-      this.auth.resetPassword(user.id, newPassword).subscribe({
+      this.auth.resetPassword(user.id, newPass).subscribe({
         next: (res) => {
           this.matchedPass.set(true);
+          localStorage.removeItem('user');
+          this.router.navigate(['/login']);
         },
         error: (err) => {
           console.log(err);

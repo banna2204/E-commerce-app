@@ -8,27 +8,15 @@
         height: 400px;
     }
 
-    .category-item-container{
+    .item-container{
         flex-wrap: wrap;
 
-        .category-item-content{
+        .item-content{
             width: min-content;
-        }
-
-        .all-category{
-            color: var(--auth-indigo-600);
             cursor: pointer;
         }
-    }
 
-    .product-item-container{
-        flex-wrap: wrap;
-
-        .product-item-content{
-            width: min-content;
-        }
-
-        .all-products{
+        .all-items{
             color: var(--auth-indigo-600);
             cursor: pointer;
         }

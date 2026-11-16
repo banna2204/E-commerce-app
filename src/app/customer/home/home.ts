@@ -1,6 +1,6 @@
 import { Component, inject, signal } from '@angular/core';
 import { Product, categoryItem, ProductItem } from '../../shared/services/product';
-import { RouterLink } from '@angular/router';
+import { RouterLink, Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -12,6 +12,7 @@ export class Home {
   productService = inject(Product);
   categories = signal<categoryItem[] | null>(null);
   products = signal<ProductItem[] | null>(null);
+  router = inject(Router);
 
   ngOnInit() {
     this.productService.getCategories().subscribe({
@@ -33,5 +34,13 @@ export class Home {
         console.log(err);
       }
     })
+  }
+
+  onCategoryDetail(category: categoryItem){
+    this.router.navigate(['/customer/category-detail', category.id]);
+  }
+
+  onProductSelect(product: ProductItem) {
+    this.router.navigate(['/customer/product-detail', product.id]);
   }
 }

@@ -11,7 +11,7 @@
     {
       "name": "test",
       "email": "test@gmail.com",
-      "password": "12345678",
+      "password": "12344321",
       "phone": "0123456888",
       "role": "customer",
       "id": "Bq3CVSp"
@@ -290,6 +290,7 @@
   ],
   "products": [
     {
+      "id": "1",
       "title": "Wireless Noise-Canceling Headphones",
       "slug": "wireless-noise-canceling-headphones",
       "price": 199.99,
@@ -299,8 +300,7 @@
       "rating": 4.7,
       "brand": "SoundCore",
       "quantity": 0,
-      "wishlist": false,
-      "id": "pT7NLZoBADQ"
+      "wishlist": false
     },
     {
       "id": "2",
@@ -312,7 +312,7 @@
       "stock": 20,
       "rating": 4.8,
       "brand": "NovaTech",
-      "quantity": 0,
+      "quantity": 1,
       "wishlist": false
     },
     {
@@ -325,8 +325,8 @@
       "stock": 14,
       "rating": 4.9,
       "brand": "ZenBook",
-      "quantity": 6,
-      "wishlist": true
+      "quantity": 1,
+      "wishlist": false
     },
     {
       "id": "4",
@@ -338,7 +338,7 @@
       "stock": 120,
       "rating": 4.4,
       "brand": "UrbanThread",
-      "quantity": 0,
+      "quantity": 1,
       "wishlist": false
     },
     {
@@ -351,7 +351,7 @@
       "stock": 35,
       "rating": 4.6,
       "brand": "VogueLine",
-      "quantity": 0,
+      "quantity": 1,
       "wishlist": false
     },
     {
@@ -378,7 +378,7 @@
       "rating": 4.7,
       "brand": "ErgoForm",
       "quantity": 0,
-      "wishlist": true
+      "wishlist": false
     },
     {
       "id": "8",
@@ -391,7 +391,7 @@
       "rating": 4.8,
       "brand": "HearthCraft",
       "quantity": 0,
-      "wishlist": true
+      "wishlist": false
     },
     {
       "id": "9",
@@ -1707,32 +1707,27 @@
       "wishlist": "false"
     }
   ],
-  "wishlist": [
-    {
-      "productId": "8",
-      "id": "GFVKPfMo4GY"
-    },
-    {
-      "productId": "7",
-      "id": "BzTUKAULfjI"
-    },
-    {
-      "productId": "2",
-      "id": "MszYBtZhMbc"
-    },
-    {
-      "productId": "3",
-      "id": "os_nL2COMM8"
-    }
-  ],
+  "wishlist": [],
   "carts": [
     {
-      "cartId": "3",
-      "id": "wmu6VP5kxPQ"
+      "cartId": "1",
+      "id": 1
     },
     {
-      "cartId": "7",
-      "id": "O12Whxa6oDA"
+      "cartId": "2",
+      "id": 2
+    },
+    {
+      "cartId": "3",
+      "id": 3
+    },
+    {
+      "cartId": "4",
+      "id": 4
+    },
+    {
+      "cartId": "5",
+      "id": 5
     }
   ],
   "address": [
